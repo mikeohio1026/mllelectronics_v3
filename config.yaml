@@ -1,8 +1,8 @@
-baseurl: https://example.com
+baseurl: https://mikeohio1026.github.io/mllelectronics_v3/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: MLL Electronics
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
