@@ -1,4 +1,222 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mikeohio1026.github.io/mllelectronics_v3/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mikeohio1026.github.io/mllelectronics_v3/index.xml" rel="self" type="application/rss+xml"/><item><title>Chinese Test</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/test-chinese/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">正文测试&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mikeohio1026.github.io/mllelectronics_v3/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mikeohio1026.github.io/mllelectronics_v3/index.xml" rel="self" type="application/rss+xml"/><item><title>Keyboard Warrior</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/keyboard-warrior/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/keyboard-warrior/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/keyboard-warrior/stm32_complete.jpg" alt="Featured image of post Keyboard Warrior" />&lt;h2 id="introduction-to-keyboard-warrior">Introduction to Keyboard Warrior&lt;/h2>
+&lt;p>This a page about the Keyboard Warrior which was my Senior Project for my Electrical and Electronic engineering degree at the University of Akron.&lt;/p>
+&lt;h2 id="hardware-layout--design-considerations">Hardware Layout &amp;amp; Design Considerations&lt;/h2>
+&lt;p>The badge is based on STM32F303RET6 processor which has 26 I/O, builtin 512kB of flash memory, 80kB of RAM, and operates at 3.3 volts with a max clock frequnecy of 72 MHz. Communication and debug on this board consisted of DFU (Device Firmware Update) via USB C and a SWD(Serial Wire debug) port. This project was split into two parts one being the main devboard that had STM32F303 and a daughter board being a keyboard with deattachable accessories. The fimware on the board is the QMK (Quantum Mechnical keyboard) and is very customizable. Some highlights regarding design include the pogo pin connector for modular attachments via I2C bus, design for high USB connection, crystal oscillator and power supply layout.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 173;
+flex-basis: 417px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block.jpg" data-size="963x554">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block.jpg"
+width="963"
+height="554"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block_hu9a3be497284e9ba7186935c774bd8b41_25970_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block_hu9a3be497284e9ba7186935c774bd8b41_25970_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Keyboard Warrior Block Diagram">
+&lt;/a>
+&lt;figcaption>Keyboard Warrior Block Diagram&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>The block diagram outlines what I envisioned as the ultimate modular mechanical keyboard that has a wide variety of attachments that would fit any situtation. With the addition of an I2C bus on the keyboard this would allow for a variety of expansions but the main focus for this project was the Numeric Keypad module as it was most realistic given the time frame for this project. Schematics are included below and are broken into a uC development module, the main keyboard and the attachment keyboard.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 113;
+flex-basis: 272px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal.jpg" data-size="671x590">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal.jpg"
+width="671"
+height="590"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal_hu098135d4ed694729ab743af6f9ebbaa7_92391_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal_hu098135d4ed694729ab743af6f9ebbaa7_92391_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Crystal Oscillator Layout">
+&lt;/a>
+&lt;figcaption>Crystal Oscillator Layout&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 181;
+flex-basis: 435px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock.jpg" data-size="1503x829">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock.jpg"
+width="1503"
+height="829"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock_hu6a2880662a0e51bfbcb516decfeecfce_124875_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock_hu6a2880662a0e51bfbcb516decfeecfce_124875_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="STM32 Clock Configurator">
+&lt;/a>
+&lt;figcaption>STM32 Clock Configurator&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>The crystal oscillator layout was an area that I focused on when designing the dev board. The ST Microelectronics AN2867 application note was very informative on the design of Pierce oscillators which are critical to the ensuring stable and reliable operation from the microcontroller. The goal of this design was to generate a 48 MHz clock which was required by the USB protocol. STM32 Cube IDE has a Clock Frequency configurator which validated my selection of the J49SMH which is 8 MHZ quartz oscillator at ±30ppm with a load capacitance of 12 pF.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 85;
+flex-basis: 204px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential.jpg" data-size="468x548">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential.jpg"
+width="468"
+height="548"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential_hu4955d3a87fca937c34dd24c61d0fc9ff_69549_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential_hu4955d3a87fca937c34dd24c61d0fc9ff_69549_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="USB C - Differential Routing">
+&lt;/a>
+&lt;figcaption>USB C - Differential Routing&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 116;
+flex-basis: 280px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout.jpg" data-size="727x622">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout.jpg"
+width="727"
+height="622"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout_hu4cf42d6623c3709db7492a6a6d9903fb_86420_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout_hu4cf42d6623c3709db7492a6a6d9903fb_86420_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Power Supply Design">
+&lt;/a>
+&lt;figcaption>Power Supply Design&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>The USB C protcool requires that signal runs be as short as possible and the data line pairs be differentially routed as to minimize issues with signal quality. Note that USB ESD protection chip was also placed inline with the STM32F303 microcontroller. Thought was also put into my DRC rules and power supply design.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 91;
+flex-basis: 220px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline.jpg" data-size="565x615">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline.jpg"
+width="565"
+height="615"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline_hu831d70827d40d3df0caef5e052b2d329_50640_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline_hu831d70827d40d3df0caef5e052b2d329_50640_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Finalized Component Layout">
+&lt;/a>
+&lt;figcaption>Finalized Component Layout&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 103;
+flex-basis: 248px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render.jpg" data-size="792x765">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render.jpg"
+width="792"
+height="765"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render_hu699dc281e0f25a5235e928e45996a18f_100283_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render_hu699dc281e0f25a5235e928e45996a18f_100283_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Keyboard Warrior Mechanical Render">
+&lt;/a>
+&lt;figcaption>Keyboard Warrior Mechanical Render&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>This layout is a standard microcontroller layout that follows sound engineering practices that emphasize stability, functionality and reliable design.&lt;/p>
+&lt;h2 id="mechanical-design">Mechanical Design&lt;/h2>
+&lt;p>The case is made of combination of 1/16th and 3/16th stacked 6061 aluminum that sandwhiches the main keyboard circuit board. It utilzes Torx screws to hold the everything together. All CAD modeling was done in Solidworks 2020 to make sure that everything fit and CAM was done with the WardCAM software. One the biggest challanges was cutting out the 1/16&amp;quot; 6061 on the waterjet as cutting materials under 1/8&amp;quot; is difficult due the turbulence of the jet stream flexing the thin metal plate.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack.jpg" data-size="2048x1536">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack.jpg"
+width="2048"
+height="1536"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack_huf008e2c24bb1825c723e53d568c5539c_300916_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack_huf008e2c24bb1825c723e53d568c5539c_300916_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Keyboard Warrior Mechanical Stackup">
+&lt;/a>
+&lt;figcaption>Keyboard Warrior Mechanical Stackup&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble.jpg" data-size="4032x3024">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble.jpg"
+width="4032"
+height="3024"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble_hu474b55ecd88037c125f2cfa204d1ebf2_2895377_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble_hu474b55ecd88037c125f2cfa204d1ebf2_2895377_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Keyboard Assembly Time">
+&lt;/a>
+&lt;figcaption>Keyboard Assembly Time&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 179;
+flex-basis: 431px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full.jpg" data-size="1499x834">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full.jpg"
+width="1499"
+height="834"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full_hu5c9adf3edef0493fa205da07c92889af_214779_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full_hu5c9adf3edef0493fa205da07c92889af_214779_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Full Keyboard">
+&lt;/a>
+&lt;figcaption>Full Keyboard&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 98;
+flex-basis: 236px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side.jpg" data-size="688x697">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side.jpg"
+width="688"
+height="697"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side_hu2b804ce995963586a04d860183a4a096_80861_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side_hu2b804ce995963586a04d860183a4a096_80861_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Keyboard attachment">
+&lt;/a>
+&lt;figcaption>Keyboard attachment&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="software-used">Software Used&lt;/h2>
+&lt;ul>
+&lt;li>KiCad V5.1 - PCB Schematic and Electronic Design Software&lt;/li>
+&lt;li>STM32 Cube IDE - PLL Clock configurator and intial testing of STM32F303&lt;/li>
+&lt;li>Solidworks 2019 - Mechanical design software&lt;/li>
+&lt;li>WardCAM - Waterjet custom case&lt;/li>
+&lt;/ul>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash.jpg" data-size="4032x3024">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash.jpg"
+width="4032"
+height="3024"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash_hu0b06e2a541f3fe4ba2d9e13f1e83b2bb_2953863_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash_hu0b06e2a541f3fe4ba2d9e13f1e83b2bb_2953863_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Prepped for Flashing with STM32 Cube IDE">
+&lt;/a>
+&lt;figcaption>Prepped for Flashing with STM32 Cube IDE&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="lessons-learned">Lessons Learned&lt;/h2>
+&lt;ol>
+&lt;li>Don&amp;rsquo;t underestimate the time it takes to write embedded software&lt;/li>
+&lt;li>Tolerance stacks matter and header pins add height which need to be accounted for&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-plans">Future Plans&lt;/h2>
+&lt;ul>
+&lt;li>Keyboard Warrior V2 - Builtin USB 3.0 Hub, RGB back light and new 80% keyboard layout&lt;/li>
+&lt;li>Continue development on the I2C bus code and additional acessories&lt;/li>
+&lt;/ul></description></item><item><title>Chinese Test</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/test-chinese/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">正文测试&lt;/h2>
 &lt;p>而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应jldsfjklsdjlkfsd该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p>
 &lt;p>奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。&lt;/p>
 &lt;h2 id="引用">引用&lt;/h2>
@@ -76,7 +294,209 @@ alt="Photo by Hudai Gayiran on Unsplash">
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
 ![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>相册语法来自 &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
->Typlog&lt;/a>&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/markdown-syntax-guide/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/markdown-syntax-guide/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" />&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
+>Typlog&lt;/a>&lt;/p></description></item><item><title>GCC Laser Reference</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/gcc-laser-reference/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/gcc-laser-reference/</guid><description>&lt;h2 id="introduction-to-the-gcc-mercury">Introduction to the GCC Mercury&lt;/h2>
+&lt;p>This a page about the GCC Mercury II laser which is a CO2 based laser&lt;/p>
+&lt;h2 id="hardware-overview">Hardware Overview&lt;/h2>
+&lt;p>&lt;figure
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/blimp_schematic.jpg" >
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/blimp_schematic.jpg"
+loading="lazy"
+alt="Blimp V1 Badge Schematic">
+&lt;/a>
+&lt;figcaption>Blimp V1 Badge Schematic&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="software-needed-to-run">Software Needed to Run&lt;/h2>
+&lt;ul>
+&lt;li>KiCad V5.1 - PCB Schematic and Electronic Design Software&lt;/li>
+&lt;li>Arduino IDE - AVR as ISP to program the board&lt;/li>
+&lt;li>Solidworks 2019 - Mechanical design software&lt;/li>
+&lt;li>Inkscape - Vector graphics editor to design blimp shape&lt;/li>
+&lt;/ul>
+&lt;h2 id="lessons-learned">Lessons Learned&lt;/h2>
+&lt;p>There were several lessons learned with this project as I had tight timeline to produce and finish this before the Fall 2019 career fair at UAkron.&lt;/p>
+&lt;ol>
+&lt;li>Check if your I2C device has pull up resistors and design in zero ohm resistors to fix if necessary.&lt;/li>
+&lt;li>Ensure that core components such as the processor are in stock and are purchased before starting schematic and PCB layout&lt;/li>
+&lt;li>Converting between a Bitmap image to Vector graphic is difficult but extremely rewarding when done&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-plans">Future Plans&lt;/h2>
+&lt;ul>
+&lt;li>Make a revision 2 of the Blimp Badge&lt;/li>
+&lt;li>Add an external clock circuit so that additional sensors can be utilized.&lt;/li>
+&lt;li>Add an ESP8266 module for wireless capability&lt;/li>
+&lt;/ul></description></item><item><title>Hackathons</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/hackathons/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/hackathons/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/hackathons/mike_hackathon.jpg" alt="Featured image of post Hackathons" />&lt;h2 id="introduction-to-hackathons">Introduction to Hackathons&lt;/h2>
+&lt;p>This a page is a curated selection of hackathon projects that I&amp;rsquo;ve worked on over my 3+ years at the University of Akron. Most of the hacks on this page are hardware based. A large majority of my hacks involve rapid prototyping techniques such as 3d printing, laser cutting and development with the Arduino and ESP32 platforms. As hardware hackers it is not uncommon to carry around a large box of hardware so as a group we decided to build Auto Tank a robotic pack mule for hackathons as featured below.&lt;/p>
+&lt;h2 id="hakron-4k----leading-the-hardware-team">HAkron 4K - Leading the Hardware Team&lt;/h2>
+&lt;p>As a HAkron officer, I got to work with the awesome people at HAkron to put together this amazing weekend of hacking and making at the Bounce Innovation Hub. My primary responsiblty was managing the hardware which meant teams could approach us with unqiue hardware challanges or requests for intresting components. It was amazing getting to see the creativity, ingentuity and passion people brought with their projects. I was able to help over 20+ students build a wide variety of hardware projects over a 24 hour time span.&lt;/p>
+&lt;h2 id="hakron-3000---nifty-cakes">HAkron 3000 - Nifty Cakes&lt;/h2>
+&lt;p>Worked with a team to convert a CoreXY 3d printer into a custom baked good frosting robot. A stepper driven mechanism was designed and printed by the printer. Which was then transformed it a baked goods decorating machine. This unique project was a great deep dive into customization with hardware and firmware on the Creality 3d printer board.&lt;/p>
+&lt;p>&lt;strong>Won Most Complex Hardware Hack&lt;/strong>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 75;
+flex-basis: 180px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly.jpg" data-size="960x1280">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly.jpg"
+width="960"
+height="1280"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly_hu17cae4bc8c7eb34e8eef6037b1625124_123866_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly_hu17cae4bc8c7eb34e8eef6037b1625124_123866_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Nifty Cakes Stepper Motor Assembly">
+&lt;/a>
+&lt;figcaption>Nifty Cakes Stepper Motor Assembly&lt;/figcaption>
+&lt;/figure>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 75;
+flex-basis: 180px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder.jpg" data-size="960x1280">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder.jpg"
+width="960"
+height="1280"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder_huf8755c2c7e3e946f04f21d96459450b0_134420_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder_huf8755c2c7e3e946f04f21d96459450b0_134420_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Completed Nifty Cakes Robot">
+&lt;/a>
+&lt;figcaption>Completed Nifty Cakes Robot&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="makeharvard-2021-compliant-prosthetic-finger-design">MakeHarvard 2021: Compliant Prosthetic Finger Design&lt;/h2>
+&lt;p>The prosthetic finger utilizes compliant flexure joints culminating in a mechanism with naturalistic finger kinematics that has the benefits of: a reduced parts count (a &amp;ldquo;print-in-place&amp;rdquo; design), being light-weight and cost effectiveness &amp;ndash; make it more accessible and practical for the millions of amputees in low socioeconomic situations.&lt;/p>
+&lt;p>&lt;strong>Won Best Hardware Hack&lt;/strong>&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 177;
+flex-basis: 426px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete.jpg" data-size="806x454">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete.jpg"
+width="806"
+height="454"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete_hu9057d6163b6ea2fb99c9399162d537a5_54700_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete_hu9057d6163b6ea2fb99c9399162d537a5_54700_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Full Rendering of Hand ">
+&lt;/a>
+&lt;figcaption>Full Rendering of Hand&lt;/figcaption>
+&lt;/figure>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand.jpg" data-size="1280x960">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand.jpg"
+width="1280"
+height="960"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand_hu1db8876d45a14860d71a3fad86bbf25a_80387_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand_hu1db8876d45a14860d71a3fad86bbf25a_80387_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="3D of A Finger Joint">
+&lt;/a>
+&lt;figcaption>3D of A Finger Joint&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 228;
+flex-basis: 549px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand.jpg" data-size="1922x840">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand.jpg"
+width="1922"
+height="840"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand_hu060e2663546bad0a5e325639e10c702e_32464_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand_hu060e2663546bad0a5e325639e10c702e_32464_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="CAD Rendering of Finger Joint">
+&lt;/a>
+&lt;figcaption>CAD Rendering of Finger Joint&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="makeharvard-2020-auto-safety-for-the-autonomous">MakeHarvard 2020: Auto-safety for the Autonomous&lt;/h2>
+&lt;p>Auto-safety for the Autonomous is prototype reinforcement learning platform that utilzes custom software and a laser cut RC car.
+To demo this idea, we built a custom laser cut acrylic RC car with an Arduino and ESP32. We used an array of HC-SR04 ultrasonic sensors to measure distances from each edge of the robot. OpenAI Gym was used to build a custom physics engine and environment for this vehicle, and ran the learning algorithm on Google&amp;rsquo;s Deep Learning VM. It can be shown in both simulation and the real-world how the algorithm can be used to reject unsafe actions and replace them with safe ones, preventing collisions and preserving the robot.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety.jpg" data-size="1280x960">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety.jpg"
+width="1280"
+height="960"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety_hu69b9ef34dd6aaeae8936a4f1acd30dc7_118099_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety_hu69b9ef34dd6aaeae8936a4f1acd30dc7_118099_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Auto-safety for the Autonomous Robot">
+&lt;/a>
+&lt;figcaption>Auto-safety for the Autonomous Robot&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="kent-hack-enough-2019---respondash">Kent Hack Enough 2019 - Respondash&lt;/h2>
+&lt;p>Respon-dash is unique product that utilizes a visual alerting system. Using a light sensor, Respon-dash&amp;rsquo;s outer component is on the look out for flashing lights, like those from a police car, behind the vehicle. If flashing lights are detected, then it sends a &amp;lsquo;ping&amp;rsquo; to Respon-dash&amp;rsquo;s inner component, which flashes briefly in the driver&amp;rsquo;s peripheral vision, alerting them to a potential situation that they may need to respond to. Respon-dash is built with two Arduino Unos, a pair of NRF24L01 wireless modules, a photo resistor, KY-037 sound detection sensor, and a Neo Pixel Indicator LED.&lt;/p>
+&lt;p>&lt;strong>Won Best Hardware Hack&lt;/strong>&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 179;
+flex-basis: 431px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render.png" data-size="1604x892">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render.png"
+width="1604"
+height="892"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render_hudf890a96dc3f8fde010aacb5f4a32904_978612_480x0_resize_box_3.png 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render_hudf890a96dc3f8fde010aacb5f4a32904_978612_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Render of the Respondash System">
+&lt;/a>
+&lt;figcaption>Render of the Respondash System&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="lessons-learned-from-hackathons">Lessons Learned from Hackathons&lt;/h2>
+&lt;ol>
+&lt;li>Have Fun! It&amp;rsquo;s awesome getting to work with a wide variety of people and really build something cool.&lt;/li>
+&lt;li>Not everything is going to go right the first time. So plan ahead and set aside more time than you think you need for troubleshooting/debug.&lt;/li>
+&lt;li>Bringing together a great team and learning something new is more important than winning.&lt;/li>
+&lt;/ol></description></item><item><title>Blimp Badge</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/blimp-badge/</link><pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/blimp-badge/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/blimp-badge/blimp_badge_render.jpg" alt="Featured image of post Blimp Badge" />&lt;h2 id="introduction-to-the-blimp-badge">Introduction to the Blimp Badge&lt;/h2>
+&lt;p>This a page about the Blimp Badge which is a Atmega328p based badge made for the Sophmore career fair at UAkron to showcase my skills in embedded systems design, circuit layout and programming. The badge features a .96&amp;quot; I2C OLED that outputs a QR code my website mllelectronics.com which has my resume and project portfolio on it.&lt;/p>
+&lt;h2 id="hardware-layout--design-considerations">Hardware Layout &amp;amp; Design Considerations&lt;/h2>
+&lt;p>The badge is based on Atmega328P and utilzes the internal 8mHz clocking running on 3.3V. Power is provided by a the &amp;ldquo;INSERT NAME&amp;rdquo; regulator. The chosen display was a generic .96&amp;quot; I2C OLED module powered by the SSD1306 CMOS display driver. All components were surface mount with all of them being 1206 sized in order to make everything hand solderable.&lt;/p>
+&lt;p>Some interesting design choices that were made such as utilzing the internal clock and the usage of AAA batteries. The internal clock was utilzed as it would have reduced component count and complexity of the design. Normally it would be preferable to have an external clock provides precise timing and accuracy which are needed in asynchronous protocols such as UART or implementation of high speed protocols such as USB. However since I was only utilzing a single I2C bus which is synchronous. AAA batteries were utilized as they easily avaiable and not prone to challanges faced by utilizing a LIPO based battery system.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 129;
+flex-basis: 310px"
+>
+&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic.jpg" data-size="3300x2550">
+&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic.jpg"
+width="3300"
+height="2550"
+srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic_hu820f401f4c3f84d12801fd52a338b934_583337_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic_hu820f401f4c3f84d12801fd52a338b934_583337_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Blimp V1 Badge Schematic">
+&lt;/a>
+&lt;figcaption>Blimp V1 Badge Schematic&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="software-used">Software Used&lt;/h2>
+&lt;ul>
+&lt;li>KiCad V5.1 - PCB Schematic and Electronic Design Software&lt;/li>
+&lt;li>Arduino IDE - AVR as ISP to program the board&lt;/li>
+&lt;li>Solidworks 2019 - Mechanical design software&lt;/li>
+&lt;li>Inkscape - Vector graphics editor to design blimp shape&lt;/li>
+&lt;/ul>
+&lt;h2 id="lessons-learned">Lessons Learned&lt;/h2>
+&lt;p>There were several lessons learned with this project as I had tight timeline to produce and finish this before the Fall 2019 career fair at UAkron.&lt;/p>
+&lt;ol>
+&lt;li>Check if your I2C device has pull up resistors and design in zero ohm resistors to fix if necessary.&lt;/li>
+&lt;li>Ensure that core components such as the processor are in stock and are purchased before starting schematic and PCB layout&lt;/li>
+&lt;li>Converting between a Bitmap image to Vector graphic is difficult but extremely rewarding when done&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-plans">Future Plans&lt;/h2>
+&lt;ul>
+&lt;li>Make a revision 2 of the Blimp Badge&lt;/li>
+&lt;li>Add an external clock circuit so that additional sensors can be utilized.&lt;/li>
+&lt;li>Add an ESP8266 module for wireless capability&lt;/li>
+&lt;/ul></description></item><item><title>Markdown Syntax Guide</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/markdown-syntax-guide/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/markdown-syntax-guide/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" />&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>
 &lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
 &lt;h1 id="h1">H1&lt;/h1>
