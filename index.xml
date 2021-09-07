@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mikeohio1026.github.io/mllelectronics_v3/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mikeohio1026.github.io/mllelectronics_v3/index.xml" rel="self" type="application/rss+xml"/><item><title>Keyboard Warrior</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/keyboard-warrior/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/keyboard-warrior/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/keyboard-warrior/stm32_complete.jpg" alt="Featured image of post Keyboard Warrior" />&lt;h2 id="introduction-to-keyboard-warrior">Introduction to Keyboard Warrior&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mllelectronics.com/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mllelectronics.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Keyboard Warrior</title><link>https://mllelectronics.com/p/keyboard-warrior/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/keyboard-warrior/</guid><description>&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_complete.jpg" alt="Featured image of post Keyboard Warrior" />&lt;h2 id="introduction-to-keyboard-warrior">Introduction to Keyboard Warrior&lt;/h2>
 &lt;p>This a page about the Keyboard Warrior which was my Senior Project for my Electrical and Electronic engineering degree at the University of Akron.&lt;/p>
 &lt;h2 id="hardware-layout--design-considerations">Hardware Layout &amp;amp; Design Considerations&lt;/h2>
 &lt;p>The badge is based on STM32F303RET6 processor which has 26 I/O, builtin 512kB of flash memory, 80kB of RAM, and operates at 3.3 volts with a max clock frequnecy of 72 MHz. Communication and debug on this board consisted of DFU (Device Firmware Update) via USB C and a SWD(Serial Wire debug) port. This project was split into two parts one being the main devboard that had STM32F303 and a daughter board being a keyboard with deattachable accessories. The fimware on the board is the QMK (Quantum Mechnical keyboard) and is very customizable. Some highlights regarding design include the pogo pin connector for modular attachments via I2C bus, design for high USB connection, crystal oscillator and power supply layout.&lt;/p>
@@ -8,11 +8,11 @@ style="
 flex-grow: 173;
 flex-basis: 417px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block.jpg" data-size="963x554">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_block.jpg" data-size="963x554">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_block.jpg"
 width="963"
 height="554"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block_hu9a3be497284e9ba7186935c774bd8b41_25970_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_block_hu9a3be497284e9ba7186935c774bd8b41_25970_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_block_hu9a3be497284e9ba7186935c774bd8b41_25970_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_block_hu9a3be497284e9ba7186935c774bd8b41_25970_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Keyboard Warrior Block Diagram">
 &lt;/a>
@@ -25,11 +25,11 @@ style="
 flex-grow: 113;
 flex-basis: 272px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal.jpg" data-size="671x590">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_crystal.jpg" data-size="671x590">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_crystal.jpg"
 width="671"
 height="590"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal_hu098135d4ed694729ab743af6f9ebbaa7_92391_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_crystal_hu098135d4ed694729ab743af6f9ebbaa7_92391_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_crystal_hu098135d4ed694729ab743af6f9ebbaa7_92391_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_crystal_hu098135d4ed694729ab743af6f9ebbaa7_92391_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Crystal Oscillator Layout">
 &lt;/a>
@@ -41,11 +41,11 @@ style="
 flex-grow: 181;
 flex-basis: 435px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock.jpg" data-size="1503x829">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_clock.jpg" data-size="1503x829">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_clock.jpg"
 width="1503"
 height="829"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock_hu6a2880662a0e51bfbcb516decfeecfce_124875_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_clock_hu6a2880662a0e51bfbcb516decfeecfce_124875_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_clock_hu6a2880662a0e51bfbcb516decfeecfce_124875_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_clock_hu6a2880662a0e51bfbcb516decfeecfce_124875_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="STM32 Clock Configurator">
 &lt;/a>
@@ -58,11 +58,11 @@ style="
 flex-grow: 85;
 flex-basis: 204px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential.jpg" data-size="468x548">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_differential.jpg" data-size="468x548">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_differential.jpg"
 width="468"
 height="548"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential_hu4955d3a87fca937c34dd24c61d0fc9ff_69549_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_differential_hu4955d3a87fca937c34dd24c61d0fc9ff_69549_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_differential_hu4955d3a87fca937c34dd24c61d0fc9ff_69549_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_differential_hu4955d3a87fca937c34dd24c61d0fc9ff_69549_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="USB C - Differential Routing">
 &lt;/a>
@@ -74,11 +74,11 @@ style="
 flex-grow: 116;
 flex-basis: 280px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout.jpg" data-size="727x622">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_supply_layout.jpg" data-size="727x622">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_supply_layout.jpg"
 width="727"
 height="622"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout_hu4cf42d6623c3709db7492a6a6d9903fb_86420_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_supply_layout_hu4cf42d6623c3709db7492a6a6d9903fb_86420_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_supply_layout_hu4cf42d6623c3709db7492a6a6d9903fb_86420_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_supply_layout_hu4cf42d6623c3709db7492a6a6d9903fb_86420_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Power Supply Design">
 &lt;/a>
@@ -91,11 +91,11 @@ style="
 flex-grow: 91;
 flex-basis: 220px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline.jpg" data-size="565x615">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_outline.jpg" data-size="565x615">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_outline.jpg"
 width="565"
 height="615"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline_hu831d70827d40d3df0caef5e052b2d329_50640_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_outline_hu831d70827d40d3df0caef5e052b2d329_50640_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_outline_hu831d70827d40d3df0caef5e052b2d329_50640_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_outline_hu831d70827d40d3df0caef5e052b2d329_50640_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Finalized Component Layout">
 &lt;/a>
@@ -107,11 +107,11 @@ style="
 flex-grow: 103;
 flex-basis: 248px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render.jpg" data-size="792x765">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/stm32_render.jpg" data-size="792x765">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_render.jpg"
 width="792"
 height="765"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render_hu699dc281e0f25a5235e928e45996a18f_100283_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/stm32_render_hu699dc281e0f25a5235e928e45996a18f_100283_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/stm32_render_hu699dc281e0f25a5235e928e45996a18f_100283_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/stm32_render_hu699dc281e0f25a5235e928e45996a18f_100283_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Keyboard Warrior Mechanical Render">
 &lt;/a>
@@ -126,11 +126,11 @@ style="
 flex-grow: 133;
 flex-basis: 320px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack.jpg" data-size="2048x1536">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/keyboard_stack.jpg" data-size="2048x1536">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/keyboard_stack.jpg"
 width="2048"
 height="1536"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack_huf008e2c24bb1825c723e53d568c5539c_300916_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_stack_huf008e2c24bb1825c723e53d568c5539c_300916_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/keyboard_stack_huf008e2c24bb1825c723e53d568c5539c_300916_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/keyboard_stack_huf008e2c24bb1825c723e53d568c5539c_300916_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Keyboard Warrior Mechanical Stackup">
 &lt;/a>
@@ -142,11 +142,11 @@ style="
 flex-grow: 133;
 flex-basis: 320px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble.jpg" data-size="4032x3024">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/keyboard_assemble.jpg" data-size="4032x3024">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/keyboard_assemble.jpg"
 width="4032"
 height="3024"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble_hu474b55ecd88037c125f2cfa204d1ebf2_2895377_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_assemble_hu474b55ecd88037c125f2cfa204d1ebf2_2895377_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/keyboard_assemble_hu474b55ecd88037c125f2cfa204d1ebf2_2895377_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/keyboard_assemble_hu474b55ecd88037c125f2cfa204d1ebf2_2895377_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Keyboard Assembly Time">
 &lt;/a>
@@ -158,11 +158,11 @@ style="
 flex-grow: 179;
 flex-basis: 431px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full.jpg" data-size="1499x834">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/keyboard_full.jpg" data-size="1499x834">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/keyboard_full.jpg"
 width="1499"
 height="834"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full_hu5c9adf3edef0493fa205da07c92889af_214779_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_full_hu5c9adf3edef0493fa205da07c92889af_214779_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/keyboard_full_hu5c9adf3edef0493fa205da07c92889af_214779_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/keyboard_full_hu5c9adf3edef0493fa205da07c92889af_214779_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Full Keyboard">
 &lt;/a>
@@ -174,11 +174,11 @@ style="
 flex-grow: 98;
 flex-basis: 236px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side.jpg" data-size="688x697">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/keyboard_side.jpg" data-size="688x697">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/keyboard_side.jpg"
 width="688"
 height="697"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side_hu2b804ce995963586a04d860183a4a096_80861_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_side_hu2b804ce995963586a04d860183a4a096_80861_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/keyboard_side_hu2b804ce995963586a04d860183a4a096_80861_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/keyboard_side_hu2b804ce995963586a04d860183a4a096_80861_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Keyboard attachment">
 &lt;/a>
@@ -197,11 +197,11 @@ style="
 flex-grow: 133;
 flex-basis: 320px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash.jpg" data-size="4032x3024">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash.jpg"
+&lt;a href="https://mllelectronics.com/p/keyboard-warrior/keyboard_flash.jpg" data-size="4032x3024">
+&lt;img src="https://mllelectronics.com/p/keyboard-warrior/keyboard_flash.jpg"
 width="4032"
 height="3024"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash_hu0b06e2a541f3fe4ba2d9e13f1e83b2bb_2953863_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/keyboard-warrior/keyboard_flash_hu0b06e2a541f3fe4ba2d9e13f1e83b2bb_2953863_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/keyboard-warrior/keyboard_flash_hu0b06e2a541f3fe4ba2d9e13f1e83b2bb_2953863_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/keyboard-warrior/keyboard_flash_hu0b06e2a541f3fe4ba2d9e13f1e83b2bb_2953863_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Prepped for Flashing with STM32 Cube IDE">
 &lt;/a>
@@ -216,13 +216,13 @@ alt="Prepped for Flashing with STM32 Cube IDE">
 &lt;ul>
 &lt;li>Keyboard Warrior V2 - Builtin USB 3.0 Hub, RGB back light and new 80% keyboard layout&lt;/li>
 &lt;li>Continue development on the I2C bus code and additional acessories&lt;/li>
-&lt;/ul></description></item><item><title>GCC Laser Reference</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/gcc-laser-reference/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/gcc-laser-reference/</guid><description>&lt;h2 id="introduction-to-the-gcc-mercury">Introduction to the GCC Mercury&lt;/h2>
+&lt;/ul></description></item><item><title>GCC Laser Reference</title><link>https://mllelectronics.com/p/gcc-laser-reference/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/gcc-laser-reference/</guid><description>&lt;h2 id="introduction-to-the-gcc-mercury">Introduction to the GCC Mercury&lt;/h2>
 &lt;p>This a page about the GCC Mercury II laser which is a CO2 based laser&lt;/p>
 &lt;h2 id="hardware-overview">Hardware Overview&lt;/h2>
 &lt;p>&lt;figure
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/blimp_schematic.jpg" >
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/blimp_schematic.jpg"
+&lt;a href="https://mllelectronics.com/blimp_schematic.jpg" >
+&lt;img src="https://mllelectronics.com/blimp_schematic.jpg"
 loading="lazy"
 alt="Blimp V1 Badge Schematic">
 &lt;/a>
@@ -247,7 +247,7 @@ alt="Blimp V1 Badge Schematic">
 &lt;li>Make a revision 2 of the Blimp Badge&lt;/li>
 &lt;li>Add an external clock circuit so that additional sensors can be utilized.&lt;/li>
 &lt;li>Add an ESP8266 module for wireless capability&lt;/li>
-&lt;/ul></description></item><item><title>Hackathons</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/hackathons/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/hackathons/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/hackathons/mike_hackathon.jpg" alt="Featured image of post Hackathons" />&lt;h2 id="introduction-to-hackathons">Introduction to Hackathons&lt;/h2>
+&lt;/ul></description></item><item><title>Hackathons</title><link>https://mllelectronics.com/p/hackathons/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/hackathons/</guid><description>&lt;img src="https://mllelectronics.com/p/hackathons/mike_hackathon.jpg" alt="Featured image of post Hackathons" />&lt;h2 id="introduction-to-hackathons">Introduction to Hackathons&lt;/h2>
 &lt;p>This a page is a curated selection of hackathon projects that I&amp;rsquo;ve worked on over my 3+ years at the University of Akron. Most of the hacks on this page are hardware based. A large majority of my hacks involve rapid prototyping techniques such as 3d printing, laser cutting and development with the Arduino and ESP32 platforms. As hardware hackers it is not uncommon to carry around a large box of hardware so as a group we decided to build Auto Tank a robotic pack mule for hackathons as featured below.&lt;/p>
 &lt;h2 id="hakron-4k----leading-the-hardware-team">HAkron 4K - Leading the Hardware Team&lt;/h2>
 &lt;p>As a HAkron officer, I got to work with the awesome people at HAkron to put together this amazing weekend of hacking and making at the Bounce Innovation Hub. My primary responsiblty was managing the hardware which meant teams could approach us with unqiue hardware challanges or requests for intresting components. It was amazing getting to see the creativity, ingentuity and passion people brought with their projects. I was able to help over 20+ students build a wide variety of hardware projects over a 24 hour time span.&lt;/p>
@@ -260,11 +260,11 @@ style="
 flex-grow: 75;
 flex-basis: 180px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly.jpg" data-size="960x1280">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly.jpg"
+&lt;a href="https://mllelectronics.com/p/hackathons/nifty_cakes_assembly.jpg" data-size="960x1280">
+&lt;img src="https://mllelectronics.com/p/hackathons/nifty_cakes_assembly.jpg"
 width="960"
 height="1280"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly_hu17cae4bc8c7eb34e8eef6037b1625124_123866_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_assembly_hu17cae4bc8c7eb34e8eef6037b1625124_123866_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/hackathons/nifty_cakes_assembly_hu17cae4bc8c7eb34e8eef6037b1625124_123866_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/nifty_cakes_assembly_hu17cae4bc8c7eb34e8eef6037b1625124_123866_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Nifty Cakes Stepper Motor Assembly">
 &lt;/a>
@@ -275,11 +275,11 @@ style="
 flex-grow: 75;
 flex-basis: 180px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder.jpg" data-size="960x1280">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder.jpg"
+&lt;a href="https://mllelectronics.com/p/hackathons/nifty_cakes_extruder.jpg" data-size="960x1280">
+&lt;img src="https://mllelectronics.com/p/hackathons/nifty_cakes_extruder.jpg"
 width="960"
 height="1280"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder_huf8755c2c7e3e946f04f21d96459450b0_134420_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/nifty_cakes_extruder_huf8755c2c7e3e946f04f21d96459450b0_134420_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/hackathons/nifty_cakes_extruder_huf8755c2c7e3e946f04f21d96459450b0_134420_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/nifty_cakes_extruder_huf8755c2c7e3e946f04f21d96459450b0_134420_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Completed Nifty Cakes Robot">
 &lt;/a>
@@ -294,11 +294,11 @@ style="
 flex-grow: 177;
 flex-basis: 426px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete.jpg" data-size="806x454">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete.jpg"
+&lt;a href="https://mllelectronics.com/p/hackathons/hand_model_complete.jpg" data-size="806x454">
+&lt;img src="https://mllelectronics.com/p/hackathons/hand_model_complete.jpg"
 width="806"
 height="454"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete_hu9057d6163b6ea2fb99c9399162d537a5_54700_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/hand_model_complete_hu9057d6163b6ea2fb99c9399162d537a5_54700_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/hackathons/hand_model_complete_hu9057d6163b6ea2fb99c9399162d537a5_54700_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/hand_model_complete_hu9057d6163b6ea2fb99c9399162d537a5_54700_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Full Rendering of Hand ">
 &lt;/a>
@@ -309,11 +309,11 @@ style="
 flex-grow: 133;
 flex-basis: 320px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand.jpg" data-size="1280x960">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand.jpg"
+&lt;a href="https://mllelectronics.com/p/hackathons/3d_print_hand.jpg" data-size="1280x960">
+&lt;img src="https://mllelectronics.com/p/hackathons/3d_print_hand.jpg"
 width="1280"
 height="960"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand_hu1db8876d45a14860d71a3fad86bbf25a_80387_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/3d_print_hand_hu1db8876d45a14860d71a3fad86bbf25a_80387_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/hackathons/3d_print_hand_hu1db8876d45a14860d71a3fad86bbf25a_80387_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/3d_print_hand_hu1db8876d45a14860d71a3fad86bbf25a_80387_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="3D of A Finger Joint">
 &lt;/a>
@@ -325,11 +325,11 @@ style="
 flex-grow: 228;
 flex-basis: 549px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand.jpg" data-size="1922x840">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand.jpg"
+&lt;a href="https://mllelectronics.com/p/hackathons/final_hand.jpg" data-size="1922x840">
+&lt;img src="https://mllelectronics.com/p/hackathons/final_hand.jpg"
 width="1922"
 height="840"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand_hu060e2663546bad0a5e325639e10c702e_32464_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/final_hand_hu060e2663546bad0a5e325639e10c702e_32464_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/hackathons/final_hand_hu060e2663546bad0a5e325639e10c702e_32464_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/final_hand_hu060e2663546bad0a5e325639e10c702e_32464_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="CAD Rendering of Finger Joint">
 &lt;/a>
@@ -344,11 +344,11 @@ style="
 flex-grow: 133;
 flex-basis: 320px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety.jpg" data-size="1280x960">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety.jpg"
+&lt;a href="https://mllelectronics.com/p/hackathons/auto_safety.jpg" data-size="1280x960">
+&lt;img src="https://mllelectronics.com/p/hackathons/auto_safety.jpg"
 width="1280"
 height="960"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety_hu69b9ef34dd6aaeae8936a4f1acd30dc7_118099_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/auto_safety_hu69b9ef34dd6aaeae8936a4f1acd30dc7_118099_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/hackathons/auto_safety_hu69b9ef34dd6aaeae8936a4f1acd30dc7_118099_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/auto_safety_hu69b9ef34dd6aaeae8936a4f1acd30dc7_118099_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Auto-safety for the Autonomous Robot">
 &lt;/a>
@@ -363,11 +363,11 @@ style="
 flex-grow: 179;
 flex-basis: 431px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render.png" data-size="1604x892">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render.png"
+&lt;a href="https://mllelectronics.com/p/hackathons/respondash_render.png" data-size="1604x892">
+&lt;img src="https://mllelectronics.com/p/hackathons/respondash_render.png"
 width="1604"
 height="892"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render_hudf890a96dc3f8fde010aacb5f4a32904_978612_480x0_resize_box_3.png 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/hackathons/respondash_render_hudf890a96dc3f8fde010aacb5f4a32904_978612_1024x0_resize_box_3.png 1024w"
+srcset="https://mllelectronics.com/p/hackathons/respondash_render_hudf890a96dc3f8fde010aacb5f4a32904_978612_480x0_resize_box_3.png 480w, https://mllelectronics.com/p/hackathons/respondash_render_hudf890a96dc3f8fde010aacb5f4a32904_978612_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Render of the Respondash System">
 &lt;/a>
@@ -378,7 +378,7 @@ alt="Render of the Respondash System">
 &lt;li>Have Fun! It&amp;rsquo;s awesome getting to work with a wide variety of people and really build something cool.&lt;/li>
 &lt;li>Not everything is going to go right the first time. So plan ahead and set aside more time than you think you need for troubleshooting/debug.&lt;/li>
 &lt;li>Bringing together a great team and learning something new is more important than winning.&lt;/li>
-&lt;/ol></description></item><item><title>Blimp Badge</title><link>https://mikeohio1026.github.io/mllelectronics_v3/p/blimp-badge/</link><pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><guid>https://mikeohio1026.github.io/mllelectronics_v3/p/blimp-badge/</guid><description>&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/p/blimp-badge/blimp_badge_render.jpg" alt="Featured image of post Blimp Badge" />&lt;h2 id="introduction-to-the-blimp-badge">Introduction to the Blimp Badge&lt;/h2>
+&lt;/ol></description></item><item><title>Blimp Badge</title><link>https://mllelectronics.com/p/blimp-badge/</link><pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/blimp-badge/</guid><description>&lt;img src="https://mllelectronics.com/p/blimp-badge/blimp_badge_render.jpg" alt="Featured image of post Blimp Badge" />&lt;h2 id="introduction-to-the-blimp-badge">Introduction to the Blimp Badge&lt;/h2>
 &lt;p>This a page about the Blimp Badge which is a Atmega328p based badge made for the Sophmore career fair at UAkron to showcase my skills in embedded systems design, circuit layout and programming. The badge features a .96&amp;quot; I2C OLED that outputs a QR code my website mllelectronics.com which has my resume and project portfolio on it.&lt;/p>
 &lt;h2 id="hardware-layout--design-considerations">Hardware Layout &amp;amp; Design Considerations&lt;/h2>
 &lt;p>The badge is based on Atmega328P and utilzes the internal 8mHz clocking running on 3.3V. Power is provided by a the &amp;ldquo;INSERT NAME&amp;rdquo; regulator. The chosen display was a generic .96&amp;quot; I2C OLED module powered by the SSD1306 CMOS display driver. All components were surface mount with all of them being 1206 sized in order to make everything hand solderable.&lt;/p>
@@ -389,11 +389,11 @@ style="
 flex-grow: 129;
 flex-basis: 310px"
 >
-&lt;a href="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic.jpg" data-size="3300x2550">
-&lt;img src="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic.jpg"
+&lt;a href="https://mllelectronics.com/p/blimp-badge/blimp_schematic.jpg" data-size="3300x2550">
+&lt;img src="https://mllelectronics.com/p/blimp-badge/blimp_schematic.jpg"
 width="3300"
 height="2550"
-srcset="https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic_hu820f401f4c3f84d12801fd52a338b934_583337_480x0_resize_q75_box.jpg 480w, https://mikeohio1026.github.io/mllelectronics_v3/mllelectronics_v3/p/blimp-badge/blimp_schematic_hu820f401f4c3f84d12801fd52a338b934_583337_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://mllelectronics.com/p/blimp-badge/blimp_schematic_hu820f401f4c3f84d12801fd52a338b934_583337_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/blimp-badge/blimp_schematic_hu820f401f4c3f84d12801fd52a338b934_583337_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Blimp V1 Badge Schematic">
 &lt;/a>
