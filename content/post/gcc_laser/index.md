@@ -3,6 +3,7 @@ title: GCC Laser Reference
 description: A reference guide for owners of the GCC Mercury II Laser 
 date: 2020-08-20
 image:
+tags: ['Rapid Prototyping']
 categories:
     - GCC Laser Cutter
     - Electrical Engineering

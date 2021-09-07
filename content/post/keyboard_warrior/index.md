@@ -3,6 +3,7 @@ title: Keyboard Warrior
 description: Custom STM32F303RET7 Mechanical Keyboard
 date: 2021-04-28
 image: stm32_complete.jpg
+tags: ['Electronics']
 categories:
     - STM32 uC 
     - Custom Mechanical Keyboard

@@ -3,6 +3,7 @@ title: Hackathons
 description: Featured Hackathon Projects 
 date: 2020-02-15
 image: mike_hackathon.jpg
+tags: ['Electronics']
 categories:
     - Hackathons
     - Electrical Engineering

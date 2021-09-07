@@ -3,6 +3,7 @@ title: Blimp Badge
 description: Atmega328p PCB badge with I2C OLED
 date: 2020-01-20
 image: blimp_badge_render.jpg
+tags: ['Electronics']
 categories:
     - Atmel Microcontroller
     - PCB Badge 
