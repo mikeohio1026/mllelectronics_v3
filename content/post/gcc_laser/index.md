@@ -11,29 +11,24 @@ categories:
 ---
 ## Introduction to the GCC Mercury 
 
-This a page about the GCC Mercury II laser which is a CO2 based laser 
+This a page about the GCC Mercury II laser which is a 30 Watt CO2 laser that has build area of 12"x24". 
+Parts are still available for this laser however they are becoming rare as time goes on. The purpose of this page is provide reference materials 
+for future owners and operators of this great machine. 
 
 ## Hardware Overview
 
+The controller is a custom controller made by GCC Mercury and is nearing the end of its useful life. 
 
-![Blimp V1 Badge Schematic](blimp_schematic.jpg)
+## Laser Details 
+Its the 30 Watt RF excited CO2 Laser made by Synrad. The exact model we have on the laser is the J48-S2 tube which has date code of September 2005. The laser is still running strong at 28.7 watts when measured with my PW250 - Laser Power Wizard. 
 
 ## Software Needed to Run 
-* KiCad V5.1 - PCB Schematic and Electronic Design Software
-* Arduino IDE  - AVR as ISP to program the board
-* Solidworks 2019 - Mechanical design software 
-* Inkscape - Vector graphics editor to design blimp shape 
+* Vector Editing software - Inkscape preferred 
+* Corel Draw - Any version above version 2.0 
+* GCC Mercury II Laser Driver 
 
 
-## Lessons Learned 
-There were several lessons learned with this project as I had tight timeline to produce and finish this before the Fall 2019 career fair at UAkron. 
-
-1. Check if your I2C device has pull up resistors and design in zero ohm resistors to fix if necessary. 
-2. Ensure that core components such as the processor are in stock and are purchased before starting schematic and PCB layout 
-3. Converting between a Bitmap image to Vector graphic is difficult but extremely rewarding when done 
 
 ## Future Plans 
-* Make a revision 2 of the Blimp Badge 
-* Add an external clock circuit so that additional sensors can be utilized. 
-* Add an ESP8266 module for wireless capability 
+* Add a more detailed maintenance procedure
 
