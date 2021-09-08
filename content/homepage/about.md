@@ -1,7 +1,15 @@
----
-title: 'Our Difference'
-button: 'About us'
-weight: 2
----
++++
+title = "About"
+description = "MLL Electronics"
+date = "2021-09-07"
+aliases = ["about-us", "about-hugo", "contact"]
+author = "Michael Liang "
++++
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.
+Welcome to MLL Electronics! I'm Michael Liang, a Senior at the University of Akron studying Electrical and Electronic Engineering. 
+
+I'm currently looking for a Full time job in Electrical Engineering come December 2021. Feel to reach out via LinkedIn: https://www.linkedin.com/in/mike-liang/ or mike@mllelectronics.com 
+
+I believe in a holistic approach to engineering with a focus on the embedded systems hardware design. Experienced in rapid prototyping techniques, circuit board layout, and design for manufacturing. Worked on a variety of personal and professional projects in both the consumer and industrial space. 
+
+Interested in learning more about hardware startups, hard tech venture capital, and entrepreneurship. 
