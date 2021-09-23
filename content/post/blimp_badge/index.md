@@ -14,9 +14,9 @@ This a page about the Blimp Badge which is a Atmega328p based badge made for the
 
 ## Hardware Layout & Design Considerations
 
-The badge is based on Atmega328P and utilzes the internal 8mHz clocking running on 3.3V. Power is provided by a the "INSERT NAME" regulator. The chosen display was a generic .96" I2C OLED module powered by the SSD1306 CMOS display driver. All components were surface mount with all of them being 1206 sized in order to make everything hand solderable. 
+The badge is based on Atmega328P and utilzes the internal 8mHz clocking running on 3.3V. Power is provided by a the MIC5219-3.3 LDO regulator. The chosen display was a generic .96" I2C OLED module powered by the SSD1306 CMOS display driver. All components were surface mount with all of them being 1206 sized in order to make everything hand solderable. 
 
-Some interesting design choices that were made such as utilzing the internal clock and the usage of AAA batteries. The internal clock was utilzed as it would have reduced component count and complexity of the design. Normally it would be preferable to have an external clock provides precise timing and accuracy which are needed in asynchronous protocols such as UART or implementation of high speed protocols such as USB. However since I was only utilzing a single I2C bus which is synchronous. AAA batteries were utilized as they easily avaiable and not prone to challanges faced by utilizing a LIPO based battery system. 
+Some interesting design choices that were made such as utilzing the internal clock and the usage of AAA batteries. The internal clock was utilzed as it would have reduced component count and complexity of the design. Normally it would be preferable to have an external clock provides precise timing and accuracy which are needed in asynchronous protocols such as UART or implementation of high speed protocols such as USB. However since I was only utilzing a single I2C bus which is synchronous. AAA batteries were utilized as they easily available and not prone to challanges faced by utilizing a LIPO based battery system. 
 
 ![Blimp V1 Badge Schematic](blimp_schematic.jpg)
 
