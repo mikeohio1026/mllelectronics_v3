@@ -8,7 +8,7 @@ categories:
     - Resume
     - Electrical Engineering
 ---
-Download: [pdf](/static/Michael_Liang_Engineering_Resume.pdf)
+Download: [pdf](/Michael_Liang_Engineering_Resume.pdf)
 
 Seeking a full time postion after December 2021.
 
