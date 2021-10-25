@@ -277,26 +277,51 @@ alt="Prepped for Flashing with STM32 Cube IDE">
 &lt;li>Continue development on the I2C bus code and additional acessories&lt;/li>
 &lt;/ul></description></item><item><title>GCC Laser Reference</title><link>https://mllelectronics.com/p/gcc-laser-reference/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/gcc-laser-reference/</guid><description>&lt;h2 id="introduction-to-the-gcc-mercury">Introduction to the GCC Mercury&lt;/h2>
 &lt;p>This a page about the GCC Mercury II laser which is a 30 Watt CO2 laser that has build area of 12&amp;quot;x24&amp;quot;.
-Parts are still available for this laser however they are becoming rare as time goes on. The purpose of this page is provide reference materials
-for future owners and operators of this great machine.&lt;/p>
+Parts are still available for this laser however they are becoming rare as time goes on. The purpose of this page is provide reference materials for future owners and operators of this machine.&lt;/p>
 &lt;h2 id="hardware-overview">Hardware Overview&lt;/h2>
 &lt;p>The controller is a custom controller made by GCC Mercury and is nearing the end of its useful life.&lt;/p>
 &lt;h2 id="laser-details">Laser Details&lt;/h2>
 &lt;p>Its the 30 Watt RF excited CO2 Laser made by Synrad. The exact model we have on the laser is the J48-S2 tube which has date code of September 2005. The laser is still running strong at 28.7 watts when measured with my PW250 - Laser Power Wizard.&lt;/p>
 &lt;h2 id="mirrors">Mirrors&lt;/h2>
-&lt;p>The mirrors as follows.&lt;/p>
-&lt;p>x1 - 25mm diameter silicon
-x2 - 20mm diameter silicon
+&lt;p>The mirrors are as follows.&lt;/p>
+&lt;p>x1 - 25mm diameter silicon mirror
+x2 - 20mm diameter silicon mirror
 x1 - 19mm diameter ZnSe with 50.8mm or 2&amp;quot; focal length&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 74;
+flex-basis: 179px"
+>
+&lt;a href="https://mllelectronics.com/p/gcc-laser-reference/old_20mm.jpg" data-size="640x854">
+&lt;img src="https://mllelectronics.com/p/gcc-laser-reference/old_20mm.jpg"
+width="640"
+height="854"
+srcset="https://mllelectronics.com/p/gcc-laser-reference/old_20mm_hu322a02151c8799e0451eb87adf2dfc04_23366_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/gcc-laser-reference/old_20mm_hu322a02151c8799e0451eb87adf2dfc04_23366_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Old Mirrors - 20mm Diameter ">
+&lt;/a>
+&lt;figcaption>Old Mirrors - 20mm Diameter&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+>
+&lt;a href="https://mllelectronics.com/old_ZNSE" >
+&lt;img src="https://mllelectronics.com/old_ZNSE"
+loading="lazy"
+alt="Old Focus Lense - 19mm ZNSE at 2&amp;#34; focal length">
+&lt;/a>
+&lt;figcaption>Old Focus Lense - 19mm ZNSE at 2&amp;quot; focal length&lt;/figcaption>
+&lt;/figure>&lt;/p>
 &lt;h2 id="software-needed-to-run">Software Needed to Run&lt;/h2>
 &lt;ul>
 &lt;li>Vector Editing software - Inkscape preferred&lt;/li>
 &lt;li>Corel Draw - Any version above version 2.0&lt;/li>
-&lt;li>GCC Mercury II Laser Driver&lt;/li>
+&lt;li>GCC Mercury II Laser Driver - needed to print and works with Corel Draw&lt;/li>
 &lt;/ul>
 &lt;h2 id="future-plans">Future Plans&lt;/h2>
 &lt;ul>
 &lt;li>Add a more detailed maintenance procedure&lt;/li>
+&lt;li>Publish a material chart with power&lt;/li>
 &lt;/ul></description></item><item><title>Hackathons</title><link>https://mllelectronics.com/p/hackathons/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/hackathons/</guid><description>&lt;img src="https://mllelectronics.com/p/hackathons/mike_hackathon.jpg" alt="Featured image of post Hackathons" />&lt;h2 id="introduction-to-hackathons">Introduction to Hackathons&lt;/h2>
 &lt;p>This a page is a curated selection of hackathon projects that I&amp;rsquo;ve worked on over my 3+ years at the University of Akron. Most of the hacks on this page are hardware based. A large majority of my hacks involve rapid prototyping techniques such as 3d printing, laser cutting and development with the Arduino and ESP32 platforms. As hardware hackers it is not uncommon to carry around a large box of hardware so as a group we decided to build Auto Tank a robotic pack mule for hackathons as featured below.&lt;/p>
 &lt;h2 id="hakron-4k----leading-the-hardware-team">HAkron 4K - Leading the Hardware Team&lt;/h2>
