@@ -10,7 +10,7 @@ categories:
 ---
 Download: [pdf](/Michael_Liang_Engineering_Resume.pdf)
 
-Seeking a full time postion after December 2021.
+Seeking a full time position after December 2021.
 
 ## Michael Liang 
 Hudson, OH
