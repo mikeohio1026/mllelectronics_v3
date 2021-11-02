@@ -20,9 +20,10 @@
 &lt;h2 id="professional-experience">Professional Experience&lt;/h2>
 &lt;p>ELECTRICAL ENGINEERING CO-OP, Toast Inc, Boston MA, Jun 2021 - August 2021&lt;/p>
 &lt;ul>
-&lt;li>Designed and printed a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.&lt;/li>
-&lt;li>Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet device. Learned about the ODM/JDM manufacturing process and the product development lifecycle.&lt;/li>
-&lt;li>Gained experience in understanding the complexity of hardware design with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.&lt;/li>
+&lt;li>Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.&lt;/li>
+&lt;li>Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
+Collaborated with ODM/JDM manufacturing vendors through out the product development lifecycle.&lt;/li>
+&lt;li>Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.&lt;/li>
 &lt;li>Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.&lt;/li>
 &lt;/ul>
 &lt;p>ELECTRICAL ENGINEERING CO-OP, WARDJet, Tallamadge OH, May 2020 - May 2021&lt;/p>
@@ -57,6 +58,16 @@ innovative Unmanned Aircraft System.&lt;/li>
 &lt;ul>
 &lt;li>Electronics consist of Mach 3 breakout board, custom high current stepper drivers based on TMC5160 driver with encoder feedback, and a spindle speed controller.&lt;/li>
 &lt;li>Mechanically designed in SolidWorks. Converted from linear lead screws to a C7 grade ballscrew system with custom made motor mounts.&lt;/li>
+&lt;/ul>
+&lt;p>HAkron Public Relations Officer: Akron’s Official College Hackathon Group&lt;/p>
+&lt;ul>
+&lt;li>Worked on expanding and engaging with engineering student organizations on campus in order to teach basic
+programming and electronics.&lt;/li>
+&lt;li>Hosted HAkron 4K a hackathon which is a 24 hour invention marathon that encourages creativity, innovation, learning
+and engineering.&lt;/li>
+&lt;li>Worked closely with a team to manage 80+ students and lead the electronics hardware team. Mentored several teams,
+organized access to the Bounce Innovation hub makerspace, and gained experience in teaching troubleshooting to
+non-technical individuals.&lt;/li>
 &lt;/ul></description></item><item><title>Keyboard Warrior</title><link>https://mllelectronics.com/p/keyboard-warrior/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/keyboard-warrior/</guid><description>&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_complete.jpg" alt="Featured image of post Keyboard Warrior" />&lt;h2 id="introduction-to-keyboard-warrior">Introduction to Keyboard Warrior&lt;/h2>
 &lt;p>This a page about the Keyboard Warrior which was my Senior Project for my Electrical and Electronic engineering degree at the University of Akron.&lt;/p>
 &lt;h2 id="hardware-layout--design-considerations">Hardware Layout &amp;amp; Design Considerations&lt;/h2>
