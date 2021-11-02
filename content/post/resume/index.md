@@ -34,9 +34,10 @@ Mobile: 330-968-0564
 ## Professional Experience 
 ELECTRICAL ENGINEERING CO-OP, Toast Inc, Boston MA, Jun 2021 - August 2021 
 
-* Designed and printed a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.
-* Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet device. Learned about the ODM/JDM manufacturing process and the product development lifecycle.
-* Gained experience in understanding the complexity of hardware design with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.
+* Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.
+* Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
+Collaborated with ODM/JDM manufacturing vendors through out the product development lifecycle.
+* Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.
 * Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.
 
 ELECTRICAL ENGINEERING CO-OP, WARDJet, Tallamadge OH, May 2020 - May 2021 
@@ -67,3 +68,11 @@ LMS3990 CNC Conversion: A custom CNC Mill
 * Electronics consist of Mach 3 breakout board, custom high current stepper drivers based on TMC5160 driver with encoder feedback, and a spindle speed controller.
 * Mechanically designed in SolidWorks. Converted from linear lead screws to a C7 grade ballscrew system with custom made motor mounts.
 
+HAkron Public Relations Officer: Akron’s Official College Hackathon Group
+* Worked on expanding and engaging with engineering student organizations on campus in order to teach basic
+programming and electronics.
+* Hosted HAkron 4K a hackathon which is a 24 hour invention marathon that encourages creativity, innovation, learning
+and engineering.
+* Worked closely with a team to manage 80+ students and lead the electronics hardware team. Mentored several teams,
+organized access to the Bounce Innovation hub makerspace, and gained experience in teaching troubleshooting to
+non-technical individuals.
