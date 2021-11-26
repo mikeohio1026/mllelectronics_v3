@@ -8,8 +8,8 @@ author = "Michael Liang "
 
 Welcome to MLL Electronics! I'm Michael Liang, a Senior at the University of Akron studying Electrical and Electronic Engineering. 
 
-I'm currently looking for a Full time job in Electrical Engineering come December 2021. Feel to reach out via LinkedIn: https://www.linkedin.com/in/mike-liang/ or mike@mllelectronics.com 
+Feel to reach out via LinkedIn: https://www.linkedin.com/in/mike-liang/ or mike@mllelectronics.com if you are interested in chatting.
 
 I believe in a holistic approach to engineering with a focus on the embedded systems hardware design. Experienced in rapid prototyping techniques, circuit board layout, and design for manufacturing. Worked on a variety of personal and professional projects in both the consumer and industrial space. 
 
-Interested in learning more about hardware startups, hard tech venture capital, and entrepreneurship. 
+Interested in learning more about hardware startups, testing to speed up hardware development, hard tech venture capital, and entrepreneurship. 
