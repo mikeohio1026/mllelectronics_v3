@@ -30,7 +30,6 @@ The mirrors are as follows.
 
 
 ![Old Mirrors - 20mm Diameter ](old_20mm.jpg)
-
 ![Old Focus Lense - 19mm ZNSE at 2" focal length](old_ZNSE.jpg)
 
 
