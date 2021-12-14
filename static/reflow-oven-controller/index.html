@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reflow Oven Controller</title>
+	<style type="text/css">
+		* {
+			box-model: border-box;
+		}
+
+		html, body {
+			font: 14pt 'Open Sans';
+			background-color: #DDDDDD;
+			color: #333333;
+		}
+
+		body {
+			margin: 0 auto;
+			max-width: 1200px;
+			padding: 2rem 0.5rem 2rem 0.5rem;
+		}
+
+		header {
+			width: 100%;
+			padding-bottom: 2rem;
+		}
+
+		header h1 {
+			display: block;
+			font-size: 3rem;
+			font-weight: 700;
+			font-style: italic;
+			width: 100%;
+			text-align: center;
+			margin: 0;
+		}
+
+		header h2 {
+			display: block;
+			font-size: 4rem;
+			font-weight: 700;
+			width: 100%;
+			text-align: center;
+			margin: 0;
+		}
+
+		header h3 {
+			display: block;
+			font-size: 2rem;
+			font-weight: 400;
+			width: 100%;
+			text-align: center;
+			margin: 0;
+		}
+
+		img {
+			width: auto;
+			height: auto;
+			max-width: 100%;
+		}
+
+		.notice {
+			padding: 1rem 1.5rem 1rem 1.5rem;
+			background-color: #ff7;
+			color: #440;
+		}
+
+		.info {
+			padding: 1rem 1.5rem 1rem 1.5rem;
+			background-color: #77cdff;
+			color: #002b44;
+		}
+
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+	</style>
+</head>
+<body>
+	<header>
+		<h1>MLL Electronics</h1>
+		<h2>Reflow Oven Controller</h2>
+		<h3>A Raspberry Pi Zero-powered reflow oven controller.</h3>
+	</header>
+
+	<p><img src="Controller Top.png" /></p>
+
+	<p class="notice"><b><i>Orders placed by 12/17/2021 will ship the week of 12/20/2021. Orders placed after will ship beginning 01/01/2022. Lead may vary due to the current supply-chain situation.</i></b></p>
+	<p class="info"><i>Please note that is is an early-access product. Additional features will be made available via software update starting early 2022.</i></p>
+
+	<h1>Buy Now</h1>
+	<h2>Basic Kit: $175</h2>
+	<p>What's included:</p>
+	<p><ul>
+		<li>1x Controller with Raspberry Pi Zero</li>
+		<li>1x 3.5" Capacitive Touch Display</li>
+		<li>1x Display cable (10" length)</li>
+		<li>Mounting hardware for controller and display</li>
+	</ul></p>
+	<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+	<script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+	<script>
+	function initPayPalButton() {
+	  paypal.Buttons({
+	    style: {
+	      shape: 'rect',
+	      color: 'gold',
+	      layout: 'vertical',
+	      label: 'paypal',
+
+	    },
+
+	    createOrder: function(data, actions) {
+	      return actions.order.create({
+	        purchase_units: [{"description":"A Raspberry Pi Zero-powered reflow oven controller.","amount":{"currency_code":"USD","value":190,"breakdown":{"item_total":{"currency_code":"USD","value":175},"shipping":{"currency_code":"USD","value":15},"tax_total":{"currency_code":"USD","value":0}}}}]
+	      });
+	    },
+
+	    onApprove: function(data, actions) {
+	      return actions.order.capture().then(function(orderData) {
+
+	        // Full available details
+	        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+	        // Show a success message within this page, e.g.
+	        const element = document.getElementById('paypal-button-container');
+	        element.innerHTML = '';
+	        element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+	        // Or go to another URL:  actions.redirect('thank_you.html');
+
+	      });
+	    },
+
+	    onError: function(err) {
+	      console.log(err);
+	    }
+	  }).render('#paypal-button-container');
+	}
+	initPayPalButton();
+	</script>
+
+	<h1>What is it?</h1>
+	<p>This is an open source reflow oven controller based on the Raspberry Pi Zero 2 W. This controller allows almost any toaster or convection oven to be converted into a full-featured soldering reflow oven. It uses a PID control algorithm to precisely follow a temperature profile to achieve great reflow soldering results. The temperature profile can be adjusted with multiple points to suit any soldering requirements.</p>
+	<p>Multiple solid-state relay outputs, thermocouple inputs, and additional I/O are included to support a wide variety of toaster and convection ovens.</p>
+	<p>The controller can be operated from a 3.5” touchscreen via a simple interface or remotely controlled via a web interface for more complex setups.</p>
+	<p>Features include:</p>
+	<p><ul>
+		<li>2x Thermocouple temperature inputs (K-, J-, T-, N-, S-, E-, B-, and R-Type supported)</li>
+		<li>2x Solid-state relay outputs for single or dual heating element control</li>
+		<li>1x General purpose output for convection fan control (built-in relay)</li>
+		<li>1x General purpose input for emergency stop switch</li>
+		<li>1x Servo output for automatic door opening during cooling cycle (software support coming soon)</li>
+		<li>Built-in buzzer for audible notifications</li>
+		<li>PID temperature control</li>
+		<li>Support for multiple temperature profiles (software support coming soon)</li>
+		<li>3.5" capacitive touchscreen for profile selection and quick adjustments</li>
+		<li>Web interface for remote monitoring and complex profile adjustments</li>
+		<li>Automatic software updates via WiFi</li>
+	</ul></p>
+
+
+	<h1>Why did you make it?</h1>
+	<p>We wanted a more modern reflow oven controller kit that had features such as an intuitive touch screen interface, a commonly available microcontroller, and the ability easily to monitor/change profiles remotely as well as locally. Our design is able to address current issues with the supply chain situation as we have selected alternates for major components and are able to adapt quickly.</p>
+
+	<h1>Additional items necessary for oven conversion</h1>
+	<p>These items will need to be customer supplied and vary based on your own specific oven conversion.</p>
+	<p><ul>
+		<li>Toaster or convection oven</li>
+		<li>Solid-state relay + heatsink</li>
+		<li>Thermocouple(s)</li>
+		<li>E-Stop button (optional)</li>
+		<li>Power switch</li>
+		<li>High temperature silicone sealant (optional)</li>
+		<li>Insulation material</li>
+		<li>Foil tape (optional)</li>
+		<li>Wire (SSR wire must be appropriately sized for your oven wattage)</li>
+		<li>Spade (fork) crimp terminals</li>
+	</ul></p>
+	<p>Check out our guide outlining general oven conversion steps: <i>Coming Soon</i>.</p>
+
+	<h1>Specifications</h1>
+	<p><ul>
+		<li><b>Input Voltage:</b> 120-240V 50/60Hz 0.1A</li>
+		<li><b>SSR control voltage:</b> 5V</li>
+		<li><b>General-purpose output rating:</b> 250V 10A</li>
+		<li><b>Supported thermocouple types:</b> K, J, T, N, S, E, B, and R</li>
+		<li><b>Temperature control accuracy:</b> &#177;2&#176;C</li>
+		<li><b>Controller size:</b> 158 x 63 mm</li>
+		<li><b>Controller mounting:</b> M3 screws, 150 x 55 mm</li>
+		<li><b>Display size:</b> 58 x 108 mm</li>
+		<li><b>Display mounting:</b> M3 screws, 50 x 100 mm</li>
+	</ul></p>
+
+	<h1>Design Files</h1>
+	<p>The design files and software are completely open-source and available on GitHub:</p>
+	<p><ul>
+		<li><b>Controller and Display Design Files:</b> <a href="https://github.com/codeThatThinks/oven-controller-hw">Link</a></li>
+		<li><b>Controller Linux Image:</b> <a href="https://github.com/codeThatThinks/oven-controller-yocto">Link</a></li>
+		<li><b>Controller Software:</b> <a href="https://github.com/codeThatThinks/oven-controller-gui">Link</a></li>
+	</ul></p>
+
+	<h1>Important Notice</h1>
+	<p><b>This product is intended for "Qualified Persons" whom have significant knowledge and training associated with high voltage wiring. You acknoledge all the risks and dangers, including high temperatures and shock hazards, involved with the installation of this product. If you lack this specific knowledge and training, or do not feel comfortable with the installation steps required, seek installation by a trained professional.</b></p>
+	<p>In no event shall we be liable for any direct, indirect, punitive, incidental, special consequential damages, to property or life, whatsoever arising out of or connected with the use or misuse of our products.</p>
+	<p>The MLL Electronics Reflow Oven Controller is backed by a 1 year limited warranty against design or manufacturing defects.</p>
+
+	<h1>Additional Photos</h1>
+	<h2>Controller PCBA</h2>
+	<p><img src="Controller Top.png" /></p>
+	<p><img src="Controller Front.png" /></p>
+	<p><img src="Controller Back.png" /></p>
+	<h2>Display PCBA</h2>
+	<p><img src="Display Front Back.png" /></p>
+	<p><img src="Display Iso.png" /></p>
+	<p><img src="Display Iso2.png" /></p>
+</body>
+</html>
