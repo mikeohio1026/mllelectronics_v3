@@ -44,7 +44,7 @@ UNIVERISITY OF AKRON UNDERGRADUTE RESEARCH, LTA Research & Exploration, Akron Oh
 team to develop custom rapid prototyping and fabrication solutions for a
 innovative Unmanned Aircraft System.
 * Retrofitted new safety equipment, maintained, and calibrated a 300 watt industrial laser cutter.
-* Maintained a print farm of over 15 industrialgrade
+* Maintained a print farm of over 15 industrial grade
 3d printers which ran 24/7.
 * Technologies Utilized: SolidWorks 2018, Simplify3D, Octoprint, and RDWorks laser controller software.
 
