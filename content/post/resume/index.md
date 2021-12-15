@@ -29,10 +29,9 @@ Seeking a full time position after December 2021.
 ## Professional Experience 
 ELECTRICAL ENGINEERING CO-OP, Toast Inc, Boston MA, Jun 2021 - August 2021 
 
-* Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.
-* Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
-Collaborated with ODM/JDM manufacturing vendors through out the product development lifecycle.
-* Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.
+* Designed and implemented an automated robotic hardware testing platform for Toast Hardware products. Also worked closely with cross disciplinary team of engineers to create detailed specifications for a upcoming tablet device.
+* Gained experience in understanding the complexity of hardware design with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.
+* Collaborated with ODM/JDM manufacturing vendors through out the product development lifecycle.
 * Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.
 
 ELECTRICAL ENGINEERING CO-OP, WARDJet, Tallamadge OH, May 2020 - May 2021 
