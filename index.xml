@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mllelectronics.com/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mllelectronics.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Keyboard Warrior</title><link>https://mllelectronics.com/p/keyboard-warrior/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/keyboard-warrior/</guid><description>&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_complete.jpg" alt="Featured image of post Keyboard Warrior" />&lt;h2 id="introduction-to-keyboard-warrior">Introduction to Keyboard Warrior&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mllelectronics.com/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mllelectronics.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Michael Liang - Resume 2021</title><link>https://mllelectronics.com/p/michael-liang-resume-2021/</link><pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/michael-liang-resume-2021/</guid><description>&lt;img src="https://mllelectronics.com/p/michael-liang-resume-2021/bizCard.jpg" alt="Featured image of post Michael Liang - Resume 2021" />&lt;p>Download: &lt;a class="link" href="https://mllelectronics.com/Michael_Liang_Engineering_Resume.pdf" >pdf&lt;/a>&lt;/p>
+&lt;p>Seeking a full time position after December 2021.&lt;/p>
+&lt;h2 id="michael-liang">Michael Liang&lt;/h2>
+&lt;p>Hudson, OH&lt;/p>
+&lt;p>Mobile: 330-968-0564&lt;/p>
+&lt;p>&lt;a class="link" href="mailto:mll118@uakron.edu" >mll118@uakron.edu&lt;/a>&lt;/p>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;ul>
+&lt;li>Rapid Prototyping&lt;/li>
+&lt;li>PCB Design (KiCAD, Eagle)&lt;/li>
+&lt;li>2D CAD (AutoCAD, NanoCAD)&lt;/li>
+&lt;li>3D CAD (SolidWorks, Fusion 360)&lt;/li>
+&lt;li>Soldering (SMT rework, through-hole)&lt;/li>
+&lt;li>3D Printing and Additive manufacturing&lt;/li>
+&lt;li>LabView&lt;/li>
+&lt;li>MATLAB&lt;/li>
+&lt;li>Microcontrollers (STM32, AVR/Atmel, PIC)&lt;/li>
+&lt;li>Programming (C, Python)&lt;/li>
+&lt;/ul>
+&lt;h2 id="professional-experience">Professional Experience&lt;/h2>
+&lt;p>ELECTRICAL ENGINEERING CO-OP, Toast Inc, Boston MA, Jun 2021 - August 2021&lt;/p>
+&lt;ul>
+&lt;li>Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.&lt;/li>
+&lt;li>Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
+Collaborated with ODM/JDM manufacturing vendors through out the product development lifecycle.&lt;/li>
+&lt;li>Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.&lt;/li>
+&lt;li>Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.&lt;/li>
+&lt;/ul>
+&lt;p>ELECTRICAL ENGINEERING CO-OP, WARDJet, Tallamadge OH, May 2020 - May 2021&lt;/p>
+&lt;ul>
+&lt;li>Designed and implemented multiple data collection and analysis systems to assist with root cause analysis of clogs in cutting operations.&lt;/li>
+&lt;li>Utilized metrics from sensors such as accelerometers, moisture sensors and piezoelectric microphones to assist with product development road map.&lt;/li>
+&lt;li>Technologies Utilized: Python, Digital Signal Processing,Raspberry Pi, and MATLAB.&lt;/li>
+&lt;/ul>
+&lt;p>UNIVERISITY OF AKRON UNDERGRADUTE RESEARCH, LTA Research &amp;amp; Exploration, Akron Ohio, Sep 2018 - March 2019&lt;/p>
+&lt;ul>
+&lt;li>Worked closely with a multidisciplinary
+team to develop custom rapid prototyping and fabrication solutions for a
+innovative Unmanned Aircraft System.&lt;/li>
+&lt;li>Retrofitted new safety equipment, maintained, and calibrated a 300 watt industrial laser cutter.&lt;/li>
+&lt;li>Maintained a print farm of over 15 industrialgrade
+3d printers which ran 24/7.&lt;/li>
+&lt;li>Technologies Utilized: SolidWorks 2018, Simplify3D, Octoprint, and RDWorks laser controller software.&lt;/li>
+&lt;/ul>
+&lt;p>SUMMIT COUNTY ENGINEER&amp;rsquo;S OFFICE, Engineering Intern, Akron Ohio, Jul 2018 - Sep 2018&lt;/p>
+&lt;ul>
+&lt;li>Assisted with drafting of plans in AutoCAD and learned industry standard engineering draw practices.&lt;/li>
+&lt;li>Technologies Used: AutoCAD Civil 3D 2013, ArcGIS (mapping software)&lt;/li>
+&lt;/ul>
+&lt;h2 id="projects">Projects&lt;/h2>
+&lt;p>Keyboard Warrior: A custom built STM32F303 keyboard running the QMK firmware.&lt;/p>
+&lt;ul>
+&lt;li>Goal: design and make a modular mechanical keyboard with ability to extend functionality over i2c (number pad, OLED display, etc)&lt;/li>
+&lt;li>Schematic and board routing was done in KiCAD. With attention paid to crystal oscillator design, USB differential pair layout, and power supply design.&lt;/li>
+&lt;li>Mechanical design was done in SolidWorks. A custom stacked aluminum case design was chosen due to simplicity and ability to easily fabricate.&lt;/li>
+&lt;/ul>
+&lt;p>LMS3990 CNC Conversion: A custom CNC Mill&lt;/p>
+&lt;ul>
+&lt;li>Electronics consist of Mach 3 breakout board, custom high current stepper drivers based on TMC5160 driver with encoder feedback, and a spindle speed controller.&lt;/li>
+&lt;li>Mechanically designed in SolidWorks. Converted from linear lead screws to a C7 grade ballscrew system with custom made motor mounts.&lt;/li>
+&lt;/ul>
+&lt;p>HAkron Public Relations Officer: Akron’s Official College Hackathon Group&lt;/p>
+&lt;ul>
+&lt;li>Worked on expanding and engaging with engineering student organizations on campus in order to teach basic
+programming and electronics.&lt;/li>
+&lt;li>Hosted HAkron 4K a hackathon which is a 24 hour invention marathon that encourages creativity, innovation, learning
+and engineering.&lt;/li>
+&lt;li>Worked closely with a team to manage 80+ students and lead the electronics hardware team. Mentored several teams,
+organized access to the Bounce Innovation hub makerspace, and gained experience in teaching troubleshooting to
+non-technical individuals.&lt;/li>
+&lt;/ul></description></item><item><title>Keyboard Warrior</title><link>https://mllelectronics.com/p/keyboard-warrior/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/keyboard-warrior/</guid><description>&lt;img src="https://mllelectronics.com/p/keyboard-warrior/stm32_complete.jpg" alt="Featured image of post Keyboard Warrior" />&lt;h2 id="introduction-to-keyboard-warrior">Introduction to Keyboard Warrior&lt;/h2>
 &lt;p>This a page about the Keyboard Warrior which was my Senior Project for my Electrical and Electronic engineering degree at the University of Akron.&lt;/p>
 &lt;h2 id="hardware-layout--design-considerations">Hardware Layout &amp;amp; Design Considerations&lt;/h2>
 &lt;p>The badge is based on STM32F303RET6 processor which has 26 I/O, builtin 512kB of flash memory, 80kB of RAM, and operates at 3.3 volts with a max clock frequnecy of 72 MHz. Communication and debug on this board consisted of DFU (Device Firmware Update) via USB C and a SWD(Serial Wire debug) port. This project was split into two parts one being the main devboard that had STM32F303 and a daughter board being a keyboard with deattachable accessories. The fimware on the board is the QMK (Quantum Mechnical keyboard) and is very customizable. Some highlights regarding design include the pogo pin connector for modular attachments via I2C bus, design for high USB connection, crystal oscillator and power supply layout.&lt;/p>
