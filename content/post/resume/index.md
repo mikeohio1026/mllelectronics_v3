@@ -13,11 +13,6 @@ Download: [pdf](/Michael_Liang_Engineering_Resume.pdf)
 Seeking a full time position after December 2021.
 
 ## Michael Liang 
-Hudson, OH
-
-Mobile: 330-968-0564 
-
-[mll118@uakron.edu](mailto:mll118@uakron.edu)
 
 ## Skills
 * Rapid Prototyping 
