@@ -34,7 +34,7 @@
 team to develop custom rapid prototyping and fabrication solutions for a
 innovative Unmanned Aircraft System.&lt;/li>
 &lt;li>Retrofitted new safety equipment, maintained, and calibrated a 300 watt industrial laser cutter.&lt;/li>
-&lt;li>Maintained a print farm of over 15 industrialgrade
+&lt;li>Maintained a print farm of over 15 industrial grade
 3d printers which ran 24/7.&lt;/li>
 &lt;li>Technologies Utilized: SolidWorks 2018, Simplify3D, Octoprint, and RDWorks laser controller software.&lt;/li>
 &lt;/ul>
@@ -341,6 +341,69 @@ alt="Old Focus Lense - 19mm ZNSE at 2&amp;#34; focal length">
 &lt;li>Publish a material chart with power&lt;/li>
 &lt;/ul></description></item><item><title>Hackathons</title><link>https://mllelectronics.com/p/hackathons/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/hackathons/</guid><description>&lt;img src="https://mllelectronics.com/p/hackathons/mike_hackathon.jpg" alt="Featured image of post Hackathons" />&lt;h2 id="introduction-to-hackathons">Introduction to Hackathons&lt;/h2>
 &lt;p>This a page is a curated selection of hackathon projects that I&amp;rsquo;ve worked on over my 3+ years at the University of Akron. Most of the hacks on this page are hardware based. A large majority of my hacks involve rapid prototyping techniques such as 3d printing, laser cutting and development with the Arduino and ESP32 platforms. As hardware hackers it is not uncommon to carry around a large box of hardware so as a group we decided to build Auto Tank a robotic pack mule for hackathons as featured below.&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 66;
+flex-basis: 159px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/autotank2.jpg" data-size="853x1280">
+&lt;img src="https://mllelectronics.com/p/hackathons/autotank2.jpg"
+width="853"
+height="1280"
+srcset="https://mllelectronics.com/p/hackathons/autotank2_hu456cac3ad8944ed3f6ae4e847aa123ed_75419_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/autotank2_hu456cac3ad8944ed3f6ae4e847aa123ed_75419_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Autotank Front View">
+&lt;/a>
+&lt;figcaption>Autotank Front View&lt;/figcaption>
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 150;
+flex-basis: 360px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/autotank3.jpg" data-size="1280x853">
+&lt;img src="https://mllelectronics.com/p/hackathons/autotank3.jpg"
+width="1280"
+height="853"
+srcset="https://mllelectronics.com/p/hackathons/autotank3_hu4ed7f5dfb1ae39b1c5a3680ff60e1729_66311_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/autotank3_hu4ed7f5dfb1ae39b1c5a3680ff60e1729_66311_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Autotank Rear View">
+&lt;/a>
+&lt;figcaption>Autotank Rear View&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 80;
+flex-basis: 193px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/autotank4.jpg" data-size="1034x1280">
+&lt;img src="https://mllelectronics.com/p/hackathons/autotank4.jpg"
+width="1034"
+height="1280"
+srcset="https://mllelectronics.com/p/hackathons/autotank4_huf08559039e432c2ca3280db472c0e90f_179313_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/autotank4_huf08559039e432c2ca3280db472c0e90f_179313_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Autotank Electronics">
+&lt;/a>
+&lt;figcaption>Autotank Electronics&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/autotank1.jpg" data-size="1280x960">
+&lt;img src="https://mllelectronics.com/p/hackathons/autotank1.jpg"
+width="1280"
+height="960"
+srcset="https://mllelectronics.com/p/hackathons/autotank1_hu037d72ab7434f49711a49bae9ade76dd_193139_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/autotank1_hu037d72ab7434f49711a49bae9ade76dd_193139_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Autotank Internals">
+&lt;/a>
+&lt;figcaption>Autotank Internals&lt;/figcaption>
+&lt;/figure>&lt;/p>
 &lt;h2 id="hakron-4k----leading-the-hardware-team">HAkron 4K - Leading the Hardware Team&lt;/h2>
 &lt;p>As a HAkron officer, I got to work with the awesome people at HAkron to put together this amazing weekend of hacking and making at the Bounce Innovation Hub. My primary responsiblty was managing the hardware which meant teams could approach us with unqiue hardware challanges or requests for intresting components. It was amazing getting to see the creativity, ingentuity and passion people brought with their projects. I was able to help over 20+ students build a wide variety of hardware projects over a 24 hour time span.&lt;/p>
 &lt;h2 id="hakron-3000---nifty-cakes">HAkron 3000 - Nifty Cakes&lt;/h2>
@@ -445,6 +508,73 @@ loading="lazy"
 alt="Auto-safety for the Autonomous Robot">
 &lt;/a>
 &lt;figcaption>Auto-safety for the Autonomous Robot&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="makeharvard-2019---bit-bandit">MakeHarvard 2019 - Bit Bandit&lt;/h2>
+&lt;p>We started with the premise that cryptocurrency mining is expensive. So why not borrow other people&amp;rsquo;s power to make some money?
+Bit Bandit is an acrylic robot that uses OpenCV on a Raspberry Pi to look for power outlets, plugs itself in, begins money making and runs away when it detects an intruder! The robot was built on a laser cut frame which is powered by two Harbor Freight Drill motors, a custom H-Bridge, and stepper motor system. Mounted on top of this is fully fledged Bitcoin Mining rig powered by a overclocked graphics card. A major challenge was that the we had to make a custom H-Bridge circuit for driving our motors as the ones we bought were not rated for the 30amps the drill motors draw. Another major hurdle was machining adapters for the drill motors as they were M10x1 thread and need to adapt to 1/4-20 thread which was our wheel. Shoutout to the guys at MITERS for their help with machining! All parts were locally sourced from Boston such as Altec Plastics, MITERs, and the MakeHarvard Machine shop. We learned that building ridiculous projects is really fun and rewarding and plan to be finding an outlet near you and begin mining!&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 140;
+flex-basis: 337px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/bbandit_assem.jpg" data-size="695x494">
+&lt;img src="https://mllelectronics.com/p/hackathons/bbandit_assem.jpg"
+width="695"
+height="494"
+srcset="https://mllelectronics.com/p/hackathons/bbandit_assem_hu3a3a9e69aa35439e82ff028439123f9d_37224_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/bbandit_assem_hu3a3a9e69aa35439e82ff028439123f9d_37224_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Bit Bandit Assembled ">
+&lt;/a>
+&lt;figcaption>Bit Bandit Assembled&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 133;
+flex-basis: 320px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/bbandit_motor.jpg" data-size="1280x960">
+&lt;img src="https://mllelectronics.com/p/hackathons/bbandit_motor.jpg"
+width="1280"
+height="960"
+srcset="https://mllelectronics.com/p/hackathons/bbandit_motor_huf44542789b34735b8c023c160bbf75df_133437_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/bbandit_motor_huf44542789b34735b8c023c160bbf75df_133437_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Bit Bandit Acrylic Motor Mounts">
+&lt;/a>
+&lt;figcaption>Bit Bandit Acrylic Motor Mounts&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 75;
+flex-basis: 180px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/bbandit_tnut.jpg" data-size="960x1280">
+&lt;img src="https://mllelectronics.com/p/hackathons/bbandit_tnut.jpg"
+width="960"
+height="1280"
+srcset="https://mllelectronics.com/p/hackathons/bbandit_tnut_hu7eea290b3753e893bbdc359ffdd656ff_72711_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/bbandit_tnut_hu7eea290b3753e893bbdc359ffdd656ff_72711_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Bit Bandit T Nut Construction">
+&lt;/a>
+&lt;figcaption>Bit Bandit T Nut Construction&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="
+flex-grow: 75;
+flex-basis: 180px"
+>
+&lt;a href="https://mllelectronics.com/p/hackathons/bbandit_assembly.jpg" data-size="960x1280">
+&lt;img src="https://mllelectronics.com/p/hackathons/bbandit_assembly.jpg"
+width="960"
+height="1280"
+srcset="https://mllelectronics.com/p/hackathons/bbandit_assembly_hu858dd3a95ec868d1de567c7323817e22_97281_480x0_resize_q75_box.jpg 480w, https://mllelectronics.com/p/hackathons/bbandit_assembly_hu858dd3a95ec868d1de567c7323817e22_97281_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Bit Bandit Pi Camera Mounting">
+&lt;/a>
+&lt;figcaption>Bit Bandit Pi Camera Mounting&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;h2 id="kent-hack-enough-2019---respondash">Kent Hack Enough 2019 - Respondash&lt;/h2>
 &lt;p>Respon-dash is unique product that utilizes a visual alerting system. Using a light sensor, Respon-dash&amp;rsquo;s outer component is on the look out for flashing lights, like those from a police car, behind the vehicle. If flashing lights are detected, then it sends a &amp;lsquo;ping&amp;rsquo; to Respon-dash&amp;rsquo;s inner component, which flashes briefly in the driver&amp;rsquo;s peripheral vision, alerting them to a potential situation that they may need to respond to. Respon-dash is built with two Arduino Unos, a pair of NRF24L01 wireless modules, a photo resistor, KY-037 sound detection sensor, and a Neo Pixel Indicator LED.&lt;/p>
