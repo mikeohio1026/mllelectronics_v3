@@ -10,7 +10,7 @@
 		}
 
 		html, body {
-			font: 14pt 'Open Sans';
+			font: 14pt 'Open Sans', 'Arial', sans-serif;
 			background-color: #DDDDDD;
 			color: #333333;
 		}
@@ -72,6 +72,38 @@
 			color: #002b44;
 		}
 
+		#addons li {
+			margin-bottom: 1em;
+		}
+
+		#addons select {
+			font-size: inherit !important;
+			min-width: 25em;
+		}
+
+		#addons span {
+			font-style: italic;
+		}
+
+		table {
+			border: 0;
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+
+		table td {
+			padding: 0.5em 0 0.5em 0;
+		}
+
+		table tr td:first-child {
+			padding-right: 2em;
+		}
+
+		table input {
+			width: 5em;
+			font-size: inherit !important;
+		}
+
 		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 	</style>
 </head>
@@ -82,13 +114,15 @@
 		<h3>A Raspberry Pi Zero-powered reflow oven controller.</h3>
 	</header>
 
-	<p><img src="Controller Top.png" /></p>
+	<p><img src="Controller Photo.jpg" /></p>
 
 	<p class="notice"><b><i>Orders placed by 12/17/2021 will ship the week of 12/20/2021. Orders placed after will ship beginning 01/01/2022. Lead may vary due to the current supply-chain situation.</i></b></p>
 	<p class="info"><i>Please note that is is an early-access product. Additional features will be made available via software update starting early 2022.</i></p>
 
 	<h1>Buy Now</h1>
-	<h2>Basic Kit: $175</h2>
+	<h2><span id="unit-price">$xxx</span> each</h2>
+
+	<h3>Basic Kit: $175</h3>
 	<p>What's included:</p>
 	<p><ul>
 		<li>1x Controller with Raspberry Pi Zero</li>
@@ -96,52 +130,18 @@
 		<li>1x Display cable (10" length)</li>
 		<li>Mounting hardware for controller and display</li>
 	</ul></p>
-	<div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-	<script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-	<script>
-	function initPayPalButton() {
-	  paypal.Buttons({
-	    style: {
-	      shape: 'rect',
-	      color: 'gold',
-	      layout: 'vertical',
-	      label: 'paypal',
 
-	    },
+	<h3>Add-ons</h3>
+	<p><ul id="addons"></ul></p>
 
-	    createOrder: function(data, actions) {
-	      return actions.order.create({
-	        purchase_units: [{"description":"A Raspberry Pi Zero-powered reflow oven controller.","amount":{"currency_code":"USD","value":190,"breakdown":{"item_total":{"currency_code":"USD","value":175},"shipping":{"currency_code":"USD","value":15},"tax_total":{"currency_code":"USD","value":0}}}}]
-	      });
-	    },
+	<table>
+		<tr><td><label for="quantity"><b>Quantity:</b></label></td><td><input type="number" name="quantity" value="1" min="1", max="10" /></td></tr>
+		<tr><td><b>Shipping:</b></td><td><span id="shipping">$xx</span></td></tr>
+		<tr><td><b>Total:</b></td><td><b><span id="total-price">$xxx</span></b></td></tr>
+	</table>
 
-	    onApprove: function(data, actions) {
-	      return actions.order.capture().then(function(orderData) {
-
-	        // Full available details
-	        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-	        // Show a success message within this page, e.g.
-	        const element = document.getElementById('paypal-button-container');
-	        element.innerHTML = '';
-	        element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-	        // Or go to another URL:  actions.redirect('thank_you.html');
-
-	      });
-	    },
-
-	    onError: function(err) {
-	      console.log(err);
-	    }
-	  }).render('#paypal-button-container');
-	}
-	initPayPalButton();
-	</script>
+	<div id="paypal-button-container"></div>
+	<noscript><p><b>Please enable Javascript to purchase this product.</b></p></noscript>
 
 	<h1>What is it?</h1>
 	<p>This is an open source reflow oven controller based on the Raspberry Pi Zero 2 W. This controller allows almost any toaster or convection oven to be converted into a full-featured soldering reflow oven. It uses a PID control algorithm to precisely follow a temperature profile to achieve great reflow soldering results. The temperature profile can be adjusted with multiple points to suit any soldering requirements.</p>
@@ -150,7 +150,7 @@
 	<p>Features include:</p>
 	<p><ul>
 		<li>2x Thermocouple temperature inputs (K-, J-, T-, N-, S-, E-, B-, and R-Type supported)</li>
-		<li>2x Solid-state relay outputs for single or dual heating element control</li>
+		<li>2x Solid-state relay outputs (software dual heating element control coming soon)</li>
 		<li>1x General purpose output for convection fan control (built-in relay)</li>
 		<li>1x General purpose input for emergency stop switch</li>
 		<li>1x Servo output for automatic door opening during cooling cycle (software support coming soon)</li>
@@ -161,7 +161,7 @@
 		<li>Web interface for remote monitoring and complex profile adjustments</li>
 		<li>Automatic software updates via WiFi</li>
 	</ul></p>
-	<p><img src="Controller Features.png" /></p>
+	<p><img src="Controller Features.jpg" /></p>
 
 	<h1>Why did you make it?</h1>
 	<p>We wanted a more modern reflow oven controller kit that had features such as an intuitive touch screen interface, a commonly available microcontroller, and the ability easily to monitor/change profiles remotely as well as locally. Our design is able to address current issues with the supply chain situation as we have selected alternates for major components and are able to adapt quickly.</p>
@@ -210,12 +210,201 @@
 
 	<h1>Additional Photos</h1>
 	<h2>Controller PCBA</h2>
-	<p><img src="Controller Top.png" /></p>
-	<p><img src="Controller Front.png" /></p>
-	<p><img src="Controller Back.png" /></p>
+	<p><img src="Controller Top.jpg" /></p>
+	<p><img src="Controller Front.jpg" /></p>
+	<p><img src="Controller Back.jpg" /></p>
 	<h2>Display PCBA</h2>
-	<p><img src="Display Front Back.png" /></p>
-	<p><img src="Display Iso.png" /></p>
-	<p><img src="Display Iso2.png" /></p>
+	<p><img src="Display Front Back.jpg" /></p>
+	<p><img src="Display Iso.jpg" /></p>
+	<p><img src="Display Iso2.jpg" /></p>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+	<script src="https://www.paypal.com/sdk/js?client-id=AdPY87HQN-RnCRuYxQFx5-_UsUewqpjhi3jh3tOwKXqLnUhGbVH7aDBWetTX1IYKA5zgrorOuIVL_Fu7&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+	<script type="text/javascript">
+		var item = "Reflow Oven Controller";
+
+		var base = {
+			"name": "Basic Kit",
+			"description": 'Includes controller, capacitive touch display, display cable, and mounting hardware for controller and display',
+			"price": 175,
+			"shipping": 10,
+		};
+
+		var addons = [
+			{
+				"name": "thermocouple",
+				"title": "Thermocouple",
+				"options": [
+					{"text": "None", 									"quantity": 0,	"price": 0,		"shipping": 0},
+					{"text": "K-type thermocouple with SS probe tip",	"quantity": 1,	"price": 12,	"shipping": 0,	"default": true},
+					{"text": "K-type thermocouple with SS probe tip",	"quantity": 2,	"price": 12,	"shipping": 0},
+				],
+			},
+			{
+				"name": "ssr",
+				"title": "Solid-state relay (SSR)",
+				"options": [
+					{"text": "None",									"quantity": 0,	"price": 0,		"shipping": 0},
+					{"text": "25A SSR with heatsink",					"quantity": 1,	"price": 27, 	"shipping": 2,	"default": true},
+					{"text": "25A SSR with heatsink",					"quantity": 2,	"price": 27,	"shipping": 2},
+				],
+			},
+			{
+				"name": "power-switch",
+				"title": "Power switch",
+				"options": [
+					{"text": "None",									"quantity": 0,	"price": 0,		"shipping": 0},
+					{"text": "22mm panel mount power switch",			"quantity": 1,	"price": 10,	"shipping": 1,	"default": true},
+				],
+			},
+			{
+				"name": "e-stop",
+				"title": "E-Stop switch",
+				"options": [
+					{"text": "None",									"quantity": 0,	"price": 0,		"shipping": 0},
+					{"text": "22mm panel mount e-stop switch",			"quantity": 1,	"price": 30,	"shipping": 1,	"default": true},
+				],
+			}
+		];
+
+		function calculate_price() {
+			var unit_price = base["price"];
+			var shipping = base["shipping"];
+
+			var quantity = parseInt($('input[name="quantity"]').val(), 10);
+			if(quantity < 1 || quantity > 10) {
+				$('input[name="quantity"]').val(1);
+			}
+
+			$('#addons select').each(function() {
+				var addon_i = parseInt($(this).attr("data-index"), 10);
+				var option_i = parseInt($(this).val(), 10);
+
+				var addon_price = addons[addon_i]["options"][option_i]["price"];
+				var addon_shipping = addons[addon_i]["options"][option_i]["shipping"];
+				var addon_quantity = addons[addon_i]["options"][option_i]["quantity"];
+
+				if((addon_price + addon_shipping) > 0) {
+					var text = "+$" + (addon_price * addon_quantity);
+					if(addon_shipping > 0) text += " + $" + (addon_shipping * addon_quantity) + " shipping";
+					$(this).parent().find('span').text(text);
+				} else {
+					$(this).parent().find('span').text("");
+				}
+
+				unit_price += addon_price * addon_quantity;
+				shipping += addon_shipping * addon_quantity;
+			});
+
+			shipping *= quantity;
+			var total_price = (unit_price * quantity) + shipping;
+
+			$('#unit-price').text("$" + unit_price);
+			$('#shipping').text("$" + shipping);
+			$('#total-price').text("$" + total_price);
+
+			return {"quantity": quantity, "unit_price": unit_price, "shipping": shipping, "total_price": total_price};
+		}
+
+		addons.forEach(function(item, index, arr) {
+			var li = $('<li><label for="' + item["name"] + '">' + item["title"] + '</label><br><select data-index="' + index + '" name="' + item["name"] + '"></select> <span></span></li>');
+
+			item["options"].forEach(function(item, index, arr) {
+				var text = item["text"];
+				if(item["quantity"] > 0) var text = item["quantity"] + "x " + text;
+
+				var option = $('<option value="' + index + '">' + text + '</option>');
+				if(item["default"]) option.attr("selected", "selected");
+				li.find('select').append(option);
+			});
+
+			$('#addons').append(li);
+		});
+
+		calculate_price();
+		$('input, select').change(calculate_price);
+
+		paypal.Buttons({
+			style: {
+				color: 'gold',
+				shape: 'rect',
+				label: 'paypal',
+				layout: 'vertical',
+			},
+
+			createOrder: function(data, actions) {
+				var values = calculate_price();
+				console.log("Calculated values:", values);
+
+				var items = [
+					{
+						"name": base["name"],
+						"description": base["description"],
+						"unit_amount": {
+							"currency_code": "USD",
+							"value": base["price"],
+						},
+						"quantity": values["quantity"],
+					}
+				];
+
+				$('select').each(function() {
+					if($(this).find('option:selected').text() != "None") {
+						var addon_i = parseInt($(this).attr("data-index"), 10);
+						var option_i = parseInt($(this).val(), 10);
+
+						var addon_price = addons[addon_i]["options"][option_i]["price"];
+						var addon_quantity = addons[addon_i]["options"][option_i]["quantity"];
+
+						items.push({
+							"name": addons[addon_i]["options"][option_i]["text"],
+							"unit_amount": {
+								"currency_code": "USD",
+								"value": addon_price,
+							},
+							"quantity": addon_quantity * values["quantity"],
+						});
+					}
+				});
+
+				return actions.order.create({
+					"intent": "CAPTURE",
+					"purchase_units": [
+						{
+							"description": item,
+							"amount": {
+								"currency_code": "USD",
+								"value": values["total_price"],
+								"breakdown": {
+									"item_total": {
+										"currency_code": "USD",
+										"value": values["unit_price"] * values["quantity"],
+									},
+									"shipping": {
+										"currency_code": "USD",
+										"value": values["shipping"],
+									},
+								},
+							},
+
+							"items": items,
+						}
+					],
+				});
+			},
+
+			onApprove: function(data, actions) {
+				return actions.order.capture().then(function (orderData) {
+					console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+					$('#paypal-button-container').html('<p style="font-size:24pt;font-weight:bold">Thanks for the order! You will receive an email once your order ships.</p>');
+				});
+			},
+
+			onError: function(err) {
+				console.log(err);
+			}
+		}).render('#paypal-button-container');
+	</script>
 </body>
 </html>
