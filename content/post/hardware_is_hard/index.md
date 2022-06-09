@@ -1,7 +1,7 @@
 
 ---
 title: Hardware is Hard 
-description: Thoughts a Musings on Hardware Development
+description: Thoughts and Musings on Hardware Development
 date: 2022-05-02
 tags: ['Electronics']
 categories:
