@@ -12,7 +12,7 @@ categories:
 
 Hardware. What exactly is it? Why is it important. Why is it hard? Since the dawn of time there has been hardware engineers. 
 
-The Midwest is an area known for manufacturing excellence. Its unique geographic location, mild climate, and proximity make it desirable for the development of hardware products. 
+The Midwest is an area known for manufacturing excellence. Its unique geographic location, mild climate, and proximity make it desirable for the development of hardware products. My goal is to explore building hardware in Columbus and its surround areas. I hope you will join me on learning more on my journey to building hardware quicker. 
 
 The V Model of Hardware and Software Development: 
 
