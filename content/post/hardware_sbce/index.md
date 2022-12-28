@@ -7,6 +7,7 @@ tags: ['Electronics']
 categories:
     - Hardware development 
     - Electronics
+draft: true 
 ---
 ## The Lean Methodologies 
 
@@ -17,4 +18,6 @@ Primary users of Lean Methodologies are Manufacuturing companies and Software De
 The question I want to ask is what is the Product Development equivalent of Lean is it possible to bridge gap between these two very important parts of product as the lines blur between hardware and software development? 
 
 ## SBCE (Set Based Concurrent Engineering ) - Lean Hardware in Disguise?? 
+
+The concept of SBCE has been 
 
