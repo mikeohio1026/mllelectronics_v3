@@ -1,4 +1,3 @@
-
 ---
 title: Resume/Shop Space Documentation
 description: 2000 sq ft - Electronics/Mechanical Prototyping Lab 
