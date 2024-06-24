@@ -1,4 +1,190 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mllelectronics.com/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mllelectronics.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hardware is Hard</title><link>https://mllelectronics.com/p/hardware-is-hard/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/hardware-is-hard/</guid><description>&lt;h2 id="introduction-to-hardware">Introduction to Hardware&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mllelectronics.com/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mllelectronics.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume/Shop Space Documentation</title><link>https://mllelectronics.com/p/resume/shop-space-documentation/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/resume/shop-space-documentation/</guid><description>&lt;h2 id="resume">Resume&lt;/h2>
+&lt;p>If you are interested in my resume - please downland from this link.
+Download: &lt;a class="link" href="https://mllelectronics.com/Michael_Liang_Engineering_Resume_Spring_2024.pdf" >pdf&lt;/a>&lt;/p>
+&lt;p>Focused on building products and prototypes quickly in my free time. Developing a strong capability both electrically and mechanically. Split into an Electronics lab with additive manufacturing capability and 2000 sq ft shop space with equipment/tools and machines need for general fabrication and automotive repair.&lt;/p>
+&lt;p>Some Highlights include:&lt;/p>
+&lt;p>Electronics Fab&lt;/p>
+&lt;ul>
+&lt;li>Programmable Power supplies - GPIB/Serial/Analog&lt;/li>
+&lt;li>Data Aquisition units - Fluke Hydra II DAQ, HP Programmable AC/DC Multimeter&lt;/li>
+&lt;li>Oscilloscopes: Tektronix 100 mHz dual chanel analog, Siglent 50 mhZ dual channel digital&lt;/li>
+&lt;li>Hakko FX888D Soldering Station&lt;/li>
+&lt;li>Generic Chinese Hot Air reflow station&lt;/li>
+&lt;li>Circuit Specialist - Reflow board preheated&lt;/li>
+&lt;li>Wiring harness fab tools
+&lt;ul>
+&lt;li>Automotive harness&lt;/li>
+&lt;li>Automation panels
+MLL Electronics Reflow oven *Still in development - custom reflow controller&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Metal Working/General Fab&lt;/p>
+&lt;ul>
+&lt;li>Miller Econo TIG; AC/DC up to 100 amps&lt;/li>
+&lt;li>Miller Matic 142 MIG Welder&lt;/li>
+&lt;li>Drill press&lt;/li>
+&lt;li>Craftsman Belt sander&lt;/li>
+&lt;li>Horizontal Band saw&lt;/li>
+&lt;li>LMS 3990 CNC mill - *Restoration still in progress&lt;/li>
+&lt;li>Southbend 9A lathe - *Restoration in progress&lt;/li>
+&lt;/ul>
+&lt;p>Addtive Manufacturing&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Voron 2.4R2 LDO Kit&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Machine Gantry&lt;/td>
+&lt;td style="text-align:center">CoreXY&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Build Area&lt;/td>
+&lt;td style="text-align:center">350mm x 350mm x 350mm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Extruder&lt;/td>
+&lt;td style="text-align:center">E3D Revo Voron&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hardware&lt;/td>
+&lt;td style="text-align:center">Raspberry Pi 4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3D Printer Controller&lt;/td>
+&lt;td style="text-align:center">BTT OCTOPUS \&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Firmware&lt;/td>
+&lt;td style="text-align:center">Mainsail OS with Klipper&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Ender 3 V2 Pro&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Build Area&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Extruder&lt;/td>
+&lt;td style="text-align:center">Ender 3 Stock&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hardware&lt;/td>
+&lt;td style="text-align:center">Raspberry Pi 3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Firmware&lt;/td>
+&lt;td style="text-align:center">Mainsail OS with Klipper&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3D Printer Controller&lt;/td>
+&lt;td style="text-align:center">Creality V4.2.7 (*CR-200B Salvage)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>EPAX X1 Resin Printer&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Build Area&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Extruder&lt;/td>
+&lt;td style="text-align:center">Resin curing LEDs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hardware&lt;/td>
+&lt;td style="text-align:center">Chitu Systems Main Board&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Firmware&lt;/td>
+&lt;td style="text-align:center">ChituOS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3D Printer Controller&lt;/td>
+&lt;td style="text-align:center">ChitubBox Main board&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>LMS 3990 Custom CNC&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Build Area&lt;/td>
+&lt;td style="text-align:center">11.8&amp;quot; x 5.1&amp;quot; x 10.6&amp;quot; 300 mm x 130 x 10.6&amp;quot; mm)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Taper&lt;/td>
+&lt;td style="text-align:center">Ender 3 Stock&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hardware&lt;/td>
+&lt;td style="text-align:center">Mach 3 - USB board&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Firmware&lt;/td>
+&lt;td style="text-align:center">Mach Motion&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CNC Printer Controller&lt;/td>
+&lt;td style="text-align:center">Creality V4.2.7 (*CR-200B Salvage)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>LMS 3990 Custom CNC&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Build Area&lt;/td>
+&lt;td style="text-align:center">11.8&amp;quot; x 5.1&amp;quot; x 10.6&amp;quot; 300 mm x 130 x 10.6&amp;quot; mm)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Taper&lt;/td>
+&lt;td style="text-align:center">Ender 3 Stock&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hardware&lt;/td>
+&lt;td style="text-align:center">Mach 3 - USB board&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Firmware&lt;/td>
+&lt;td style="text-align:center">Mach Motion&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CNC Printer Controller&lt;/td>
+&lt;td style="text-align:center">Creality V4.2.7 (*CR-200B Salvage)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="sbce-set-based-concurrent-engineering----lean-hardware-in-disguise">SBCE (Set Based Concurrent Engineering ) - Lean Hardware in Disguise??&lt;/h2></description></item><item><title>Hardware is Hard</title><link>https://mllelectronics.com/p/hardware-is-hard/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/hardware-is-hard/</guid><description>&lt;h2 id="introduction-to-hardware">Introduction to Hardware&lt;/h2>
 &lt;p>Hardware. What exactly is it? Why is it important. Why is it hard? Since the dawn of time there has been hardware engineers.&lt;/p>
 &lt;p>The Midwest is an area known for manufacturing excellence. Its unique geographic location, mild climate, and proximity make it desirable for the development of hardware products. My goal is to explore building hardware in Columbus and its surround areas. I hope you will join me on learning more on my journey to building hardware quicker.&lt;/p>
 &lt;p>The V Model of Hardware and Software Development:&lt;/p>
