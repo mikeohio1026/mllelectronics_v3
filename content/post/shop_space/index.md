@@ -36,7 +36,7 @@ Metal Working/General Fab
 - LMS 3990 CNC mill - *Restoration still in progress
 - Southbend 9A lathe - *Restoration in progress 
 
-Addtive Manufacturing 
+Addtive Manufacturing Details
 
 | Voron 2.4R2 LDO Kit                           
 | ------------- |:-------------:|
@@ -61,7 +61,7 @@ Addtive Manufacturing
 | Extruder    | Resin curing LEDs |  
 | Hardware | Chitu Systems Main Board| 
 | Firmware | ChituOS| 
-| 3D Printer Controller | ChitubBox Main board | 
+| 3D Printer Controller | ChituBox Main board | 
 
 | LMS 3990 Custom CNC                    
 | ------------- |:--------------:|
@@ -78,14 +78,5 @@ Addtive Manufacturing
 | Hardware | Mach 3 - USB board| 
 | Firmware | Mach Motion| 
 | CNC Printer Controller | Creality V4.2.7 (*CR-200B Salvage)| 
-
-
-
-
-
-
-
-
-## SBCE (Set Based Concurrent Engineering ) - Lean Hardware in Disguise?? 
 
 
