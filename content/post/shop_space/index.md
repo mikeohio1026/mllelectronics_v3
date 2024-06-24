@@ -1,7 +1,8 @@
 ---
 title: Resume/Shop Space Documentation
 description: 2000 sq ft - Electronics/Mechanical Prototyping Lab 
-date: 2022-10-02
+date: 2024-06-24
+image: EE_Shop.jpg
 tags: ['Electronics']
 categories:
     - Hardware development 
