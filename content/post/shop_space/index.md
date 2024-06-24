@@ -7,7 +7,6 @@ tags: ['Electronics']
 categories:
     - Hardware development 
     - Electronics
-draft: False
 ---
 ## Resume 
 If you are interested in my resume - please downland from this link. 

@@ -24,6 +24,10 @@ Atomic Engineering. I would also like to highlight startups I've seen or heard a
 
 My belif is the hybridization of these bits and atoms 
 
+You can then talk about derivatives such as V Model popular in highly regulated industries such as aerospace, medical devices, and automotive to name a few. 
+
+These are requirements and regulation driven industries where there is supposed to be a clear definition and supposedly all inputs and outputs are validated. 
+
 ## SBCE (Set Based Concurrent Engineering ) - Lean Hardware in Disguise?? 
 
 
