@@ -7,7 +7,7 @@ tags: ['Electronics']
 categories:
     - Hardware development 
     - Electronics
-draft: true 
+draft: False
 ---
 ## Resume 
 If you are interested in my resume - please downland from this link. 
@@ -18,6 +18,9 @@ Focused on building products and prototypes quickly in my free time. Developing 
 Some Highlights include: 
 
 Electronics Fab 
+- Programmable Power supplies - GPIB/Serial/Analog 
+- Data Aquisition units - Fluke Hydra II DAQ, HP Programmable AC/DC Multimeter
+- Oscilloscopes: Tektronix 100 mHz dual chanel analog, Siglent 50 mhZ dual channel digital 
 - Hakko FX888D Soldering Station 
 - Generic Chinese Hot Air reflow station 
 - Circuit Specialist - Reflow board preheated 
@@ -27,11 +30,13 @@ Electronics Fab
  MLL Electronics Reflow oven *Still in development - custom reflow controller
 
 Metal Working/General Fab 
-- Miller Econ TIG; AC/DC up to 100 amps 
-- 
-
-
-
+- Miller Econo TIG; AC/DC up to 100 amps 
+- Miller Matic 142 MIG Welder 
+- Drill press 
+- Craftsman Belt sander
+- Horizontal Band saw
+- LMS 3990 CNC mill - *Restoration still in progress
+- Southbend 9A lathe - *Restoration in progress 
 
 Addtive Manufacturing 
 
