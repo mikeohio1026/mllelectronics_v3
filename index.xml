@@ -2,7 +2,8 @@
 &lt;p>If you are interested in my resume - please download from this link.&lt;/p>
 &lt;p>Download: &lt;a class="link" href="https://mllelectronics.com/Michael_Liang_Engineering_Resume_Spring_2024.pdf" >pdf&lt;/a>&lt;/p>
 &lt;h2 id="professional-experience">Professional Experience&lt;/h2>
-&lt;p>Autonomous Systems Engineer Honda R&amp;amp;D America : Marysville , OH Jan 2022 - Present&lt;/p>
+&lt;p>Autonomous Systems Engineer
+Honda R&amp;amp;D America Marysville , OH Jan 2022 - Present&lt;/p>
 &lt;ul>
 &lt;li>Led ECU system level development and validation across multiple vehicle models from project kick off to mass
 production while working cross functionally to define, design and perform tests.&lt;/li>
@@ -13,7 +14,8 @@ a half. Transitioned into the Autonomous Systems role where I am currently devel
 next gen ADAS system
 *Technologies Utilized: Automotive Bus (CAN, Ethernet), ETAS, VECTOR, IPEtronik, and CATIA&lt;/li>
 &lt;/ul>
-&lt;p>Electrical Engineering Co-op Toast Inc : Boston, MA Jun 2021 - August 2021&lt;/p>
+&lt;p>EE Co-Op - HW Test/Development
+Toast Inc Boston, MA Jun 2021 - August 2021&lt;/p>
 &lt;ul>
 &lt;li>Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.&lt;/li>
 &lt;li>Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
@@ -21,7 +23,8 @@ Collaborated with ODM/JDM manufacturing vendors through out the product developm
 &lt;li>Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.&lt;/li>
 &lt;li>Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.&lt;/li>
 &lt;/ul>
-&lt;p>Electrical Engineering Co-op WardJET - Waterjet Cutting Machines : Tallmadge, Ohio May 2020 - May 2021&lt;/p>
+&lt;p>EE Co-op: Automation/R&amp;amp;D HW Development
+WardJET - Waterjet Cutting Machines : Tallmadge, Ohio May 2020 - May 2021&lt;/p>
 &lt;ul>
 &lt;li>Designed and implemented multiple data collection and analysis systems to assist with root cause analysis of clogs in
 cutting operations.&lt;/li>
@@ -29,8 +32,8 @@ cutting operations.&lt;/li>
 electronics for usage in waterjet process.&lt;/li>
 &lt;li>Technologies Utilized: Python, Digital Signal Processing,Raspberry Pi, and MATLAB.&lt;/li>
 &lt;/ul>
-&lt;p>University of Akron Undergraduate Research: Akron, Ohio Sep 2018 - March 2019&lt;/p>
-&lt;p>Lab Assistant for LTA Research &amp;amp; Exploration&lt;/p>
+&lt;p>Lab Assistant for LTA Research &amp;amp; Exploration
+University of Akron Undergraduate Research: Akron, Ohio Sep 2018 - March 2019&lt;/p>
 &lt;ul>
 &lt;li>Worked closely with a multi-disciplinary team to develop custom rapid prototyping and fabrication solutions for a
 innovative Unmanned Aircraft System.&lt;/li>
