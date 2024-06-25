@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLL Electronics</title><link>https://mllelectronics.com/</link><description>Recent content on MLL Electronics</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mllelectronics.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume/Shop Space Documentation</title><link>https://mllelectronics.com/p/resume/shop-space-documentation/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://mllelectronics.com/p/resume/shop-space-documentation/</guid><description>&lt;img src="https://mllelectronics.com/p/resume/shop-space-documentation/EE_Shop.jpg" alt="Featured image of post Resume/Shop Space Documentation" />&lt;h2 id="resume">Resume&lt;/h2>
 &lt;p>If you are interested in my resume - please download from this link.&lt;/p>
 &lt;p>Download: &lt;a class="link" href="https://mllelectronics.com/Michael_Liang_Engineering_Resume_Spring_2024.pdf" >pdf&lt;/a>&lt;/p>
+&lt;p>Honda R&amp;amp;D America : Marysville , OH Jan 2022 - Present
+■ Autonomous Systems Engineer
+● Led ECU system level development and validation across multiple vehicle models from project kick off to mass
+production while working cross functionally to define, design and perform tests.
+● Designed and implemented both HILS and on vehicle solutions for validating new and existing regulatory requirements
+for ECU development.
+● Focused on FMEA, test design, dynamic and static testing of TCU (Transmission controllers) for the first year and
+a half. Transitioned into the Autonomous Systems role where I am currently developing a localized HILS bench for
+next gen ADAS system.
+● Technologies Utilized: Automotive Bus (CAN, Ethernet), ETAS, VECTOR, IPEtronik, and CATIA&lt;/p>
+&lt;p>Toast Inc : Boston, MA Jun 2021 - August 2021
+■ Electrical Engineering Co-op
+● Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.
+● Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
+Collaborated with ODM/JDM manufacturing vendors through out the product development lifecycle.
+● Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.
+● Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.&lt;/p>
+&lt;p>WardJET - Waterjet Cutting Machines : Tallmadge, Ohio May 2020 - May 2021
+■ Electrical Engineering Co-op
+● Designed and implemented multiple data collection and analysis systems to assist with root cause analysis of clogs in
+cutting operations.
+● Worked closely with engineers to develop processes for prototyping, testing and manufacturing of microphones and
+electronics for usage in waterjet process.
+● Technologies Utilized: Python, Digital Signal Processing,Raspberry Pi, and MATLAB.&lt;/p>
+&lt;p>University of Akron Undergraduate Research: Akron, Ohio Sep 2018 - March 2019
+■ Lab Assistant for LTA Research &amp;amp; Exploration
+● Worked closely with a multi-disciplinary team to develop custom rapid prototyping and fabrication solutions for a
+innovative Unmanned Aircraft System.
+● Retrofitted new safety equipment, maintained, and calibrated a 300 watt industrial laser cutter.
+● Maintained a print farm of over 15 industrial-grade 3d printers which ran 24/7.
+● Technologies Utilized: SolidWorks 2018, Simplify3D, Octoprint, and RDWorks laser controller software.&lt;/p>
 &lt;p>Focused on building products and prototypes quickly in my free time. Developing a strong capability both electrically and mechanically. Split into an Electronics lab with additive manufacturing capability and 2000 sq ft shop space with equipment/tools and machines need for general fabrication and automotive repair.&lt;/p>
 &lt;p>Some Highlights include:&lt;/p>
 &lt;p>Electronics Fab&lt;/p>
