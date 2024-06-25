@@ -16,7 +16,8 @@ Download: [pdf](/Michael_Liang_Engineering_Resume_Spring_2024.pdf)
 
 ## Professional Experience
 
-Autonomous Systems Engineer Honda R&D America : Marysville , OH Jan 2022 - Present
+Autonomous Systems Engineer 
+Honda R&D America Marysville , OH Jan 2022 - Present
 
 * Led ECU system level development and validation across multiple vehicle models from project kick off to mass
 production while working cross functionally to define, design and perform tests.
@@ -27,7 +28,8 @@ a half. Transitioned into the Autonomous Systems role where I am currently devel
 next gen ADAS system
 *Technologies Utilized: Automotive Bus (CAN, Ethernet), ETAS, VECTOR, IPEtronik, and CATIA
 
-Electrical Engineering Co-op Toast Inc : Boston, MA Jun 2021 - August 2021
+EE Co-Op - HW Test/Development
+Toast Inc Boston, MA Jun 2021 - August 2021
 
 * Fabricated a fully custom automated robotic hardware testing platform based on the ESP32 microcontroller.
 * Worked closely with a cross disciplinary team of engineers to create detailed specifications for an upcoming tablet.
@@ -35,7 +37,8 @@ Collaborated with ODM/JDM manufacturing vendors through out the product developm
 * Analyzed and reviewed designs with multiple high speed signals such as MIPI, LVDS, gigabit ethernet and USB C.
 * Technologies Utilized: ESP32, Python, Fusion 360, RF Explorer, and PADs viewer.
 
-Electrical Engineering Co-op WardJET - Waterjet Cutting Machines : Tallmadge, Ohio May 2020 - May 2021
+EE Co-op: Automation/R&D HW Development
+WardJET - Waterjet Cutting Machines : Tallmadge, Ohio May 2020 - May 2021
 
 * Designed and implemented multiple data collection and analysis systems to assist with root cause analysis of clogs in
 cutting operations.
@@ -43,9 +46,8 @@ cutting operations.
 electronics for usage in waterjet process.
 * Technologies Utilized: Python, Digital Signal Processing,Raspberry Pi, and MATLAB.
 
-University of Akron Undergraduate Research: Akron, Ohio Sep 2018 - March 2019
-
 Lab Assistant for LTA Research & Exploration
+University of Akron Undergraduate Research: Akron, Ohio Sep 2018 - March 2019
 
 * Worked closely with a multi-disciplinary team to develop custom rapid prototyping and fabrication solutions for a
 innovative Unmanned Aircraft System.
