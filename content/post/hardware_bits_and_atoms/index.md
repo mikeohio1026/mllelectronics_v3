@@ -22,6 +22,4 @@ If we assume the brain is electrical currents and then we use it is also another
 Atomic Engineering. I would also like to highlight startups I've seen or heard about in this area too. Its another post that is good. 
 
 
-## SBCE (Set Based Concurrent Engineering ) - Lean Hardware in Disguise?? 
-
 

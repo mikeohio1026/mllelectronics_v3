@@ -2,13 +2,15 @@
 ---
 title: Lean Hardware Methodologies 
 description: The implementation of Lean Hardware
-date: 2024-06-09
+date: 2025-05-13
 tags: ['Electronics']
 categories:
     - Hardware development 
     - Electronics
-draft: true 
+draft: true
 ---
+*The views expressed are solely **my own** and **do not necessarily reflect those of my current employer**.
+
 ## The Lean Methodologies 
 
 The concept of Lean is a guiding philosophy that focuses on creating value with fewer resources and less waste. This philosophy focuses on the elimination of non-value add activities and waste from business by focusing on the needs of the customer. The customer itself is intentionally ambiguous at first but then requires introspection regarding the entire process flow. 
@@ -68,11 +70,11 @@ You need both analog and digital design you need a systems related approach to b
 
 If these things are not considered you end up with a hard brick like object.
 
-I think manufacturing is the same thing gone are the days of manual milling and now CNC automate things. You have the code and post processing you will spend as much as you did before but make it repeatable and accurate with SW. That's the key is that you have the tools needed to make this digital transformation. 
+I think manufacturing is the same thing gone are the days of manual milling and now CNC automate things. You have the code and pocst processing you will spend as much as you did before but make it repeatable and accurate with SW. That's the key is that you have the tools needed to make this digital transformation. 
 
 Yet they are slow to adopt as it the focus of waterfall is to make widget and go through the process. Yet they adapted to LEAN and Six Sigma. 
 
 I think the Hardware and SW development can do the same – let me outline this in the next article.
-## SBCE (Set Based Concurrent Engineering ) - Lean Hardware in Disguise?? 
+
 
 
