@@ -1,25 +1,37 @@
 ---
-title: About
-description: MLL Electronics Rapid Prototyping Consultant
-date: '2019-02-28'
+title: About 
+description: Midwest Hardtech Consultant 
+date: '2025-05-21'
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2021-09-06'
+lastmod: '2025-05-21'
 menu:
     main: 
         weight: -90
         pre: user
 ---
 
-Welcome to MLL Electronics! I'm Michael Liang, a Senior at the University of Akron studying Electrical and Electronic Engineering. 
+Welcome to MLL Electronics!
 
-I have a wide variety of skills and experiences that covering every aspect from electrical engineering, to mechanical design and entrepreneurship. Currently working as a freelance Electrical Engineering consultant with experience in hardware development, rapid prototyping and design for manufacturing in both an industrial and consumer space. 
+I'm Michael Liang — a passionate hardware hacker, founder, and hardtech evangelist based in the Midwest.
 
-I'm currently looking for a Full time job in Electrical Engineering come December 2021. Feel to reach out via LinkedIn: https://www.linkedin.com/in/mike-liang/ or mike@mllelectronics.com 
+🔗 LinkedIn: https://www.linkedin.com/in/mike-liang/)
 
-I believe in a holistic approach to engineering with a focus on the embedded systems hardware design. Experienced in rapid prototyping techniques, circuit board layout, and design for manufacturing. Worked on a variety of personal and professional projects in both the consumer and industrial space. 
+📧 Email: mike@mllelectronics.com
 
-Interested in learning more about hardware startups, hard tech venture capital, and entrepreneurship. 
+I take a holistic approach to engineering with a strong focus on embedded systems and hardware design. I'm experienced in rapid prototyping, PCB layout, and design for manufacturing. Over the years, I’ve contributed to a range of personal and professional projects across both consumer and industrial sectors.
+
+I’m especially interested in:
+
+* Hardware startups and founder journeys
+
+* Test-driven hardware development
+
+* Hardtech venture capital
+
+* Bulding and scaling Hardtech in the Midwest 
+
+Let’s build better, faster, and closer to home.
