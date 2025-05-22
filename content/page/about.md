@@ -22,6 +22,8 @@ I'm Michael Liang — a passionate hardware hacker, founder, and hardtech evange
 
 📧 Email: mike@mllelectronics.com
 
+🔩 Substack: https://midwesthardtech.substack.com/?r=9vvbf&utm_campaign=pub-share-checklist
+
 I take a holistic approach to engineering with a strong focus on embedded systems and hardware design. I'm experienced in rapid prototyping, PCB layout, and design for manufacturing. Over the years, I’ve contributed to a range of personal and professional projects across both consumer and industrial sectors.
 
 I’m especially interested in:
