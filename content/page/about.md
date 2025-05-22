@@ -18,7 +18,7 @@ Welcome to MLL Electronics!
 
 I'm Michael Liang — a passionate hardware hacker, founder, and hardtech evangelist based in the Midwest.
 
-🔗 LinkedIn: https://www.linkedin.com/in/mike-liang/)
+🔗 LinkedIn: https://www.linkedin.com/in/mike-liang/
 
 📧 Email: mike@mllelectronics.com
 
