@@ -1,0 +1,14 @@
+services: 
+  hugo: 
+    image: hugomods/hugo:exts-0.127.0 
+    working_dir: /src 
+    volumes: 
+      - .:/src 
+    command: hugo --minify 
+  server: 
+    image: hugomods/hugo:exts-0.127.0 
+    working_dir: /src 
+    volumes:
+      - .:/src 
+    network_mode: host
+    command: hugo server --bind 0.0.0.0 --baseURL http://localhost:1313 --buildDrafts
